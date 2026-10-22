@@ -1,0 +1,52 @@
+{
+  "typologies": [
+    "recovery"
+  ],
+  "contact_channels": [
+    "phone call",
+    "email",
+    "fax"
+  ],
+  "pretexts": [
+    "caller claims to be from company offering refund for previous tech support fraud",
+    "email claims payment couldn't be processed",
+    "impersonation of government department or law enforcement",
+    "impersonation of CAFC offering to recover lost funds",
+    "claim of helping with sting operation to catch fraudsters",
+    "claim funds have been recovered but advance fee required"
+  ],
+  "payment_methods": [
+    "advance fee",
+    "Bitcoin",
+    "online banking transfer"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "previous fraud victims"
+  ],
+  "emerging_tactics": [
+    "remote access to computer",
+    "impersonation using CAFC letterhead and logo",
+    "fake sting operation recruitment"
+  ],
+  "kill_chain_signals": {
+    "contact": "Fraudsters contact previous victims by phone, email or fax claiming to help recover lost funds",
+    "pretext": "Impersonate CAFC, law enforcement, government departments, or companies offering refunds; claim to assist with investigation or sting operation",
+    "payment": "Request advance fees (e.g. $5000 CAD) or Bitcoin deposits (e.g. $1950 CAD) supposedly to support investigation before funds can be returned",
+    "movement": "Victims asked to sign in to online banking while fraudster has remote access to computer"
+  },
+  "red_flags": [
+    "Request for advance fee to obtain a refund",
+    "Request for remote access to computer or device",
+    "CAFC or police asking you to transfer funds or make payment",
+    "Promise to recover previously lost funds",
+    "Request to deposit money to support an investigation"
+  ],
+  "key_quote": "Remember that the CAFC and police will never ask you to transfer funds or make a payment of any kind.",
+  "id": "scams-fraudes-recovery-recuperation-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/recovery-recuperation-eng.htm",
+  "title": "Recovery pitch",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

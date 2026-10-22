@@ -1,0 +1,41 @@
+{
+  "typologies": [
+    "investment_crypto",
+    "merchandise_marketplace"
+  ],
+  "contact_channels": [
+    "social media"
+  ],
+  "pretexts": [
+    "deepfake videos impersonating politicians, celebrities, and news anchors",
+    "trusted person promoting fraudulent investment platforms",
+    "public figure promoting merchandise or applications"
+  ],
+  "payment_methods": [],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [],
+  "emerging_tactics": [
+    "deepfake videos",
+    "AI algorithms to manipulate audio and video",
+    "impersonation of public figures using deepfakes"
+  ],
+  "kill_chain_signals": {
+    "contact": "deepfake videos circulate on social media platforms",
+    "pretext": "deepfake videos make it appear as though the trusted person is promoting fraudulent investment platforms, merchandise or applications",
+    "payment": "fraudsters use the name of legitimate companies to lend credibility to the fraud and convince victims to send money"
+  },
+  "red_flags": [
+    "Assume that a video which includes a public figure promoting merchandise or investments is fake until you can prove otherwise",
+    "Videos that seem too good to be true or show public figures saying something out of character",
+    "Signs of video editing such as unnatural movements, mismatched audio, or inconsistent lighting and shadows",
+    "Fraudsters will use the name of legitimate companies to lend credibility to the fraud",
+    "Deepfakes often rely on sensational or provocative content to manipulate viewers"
+  ],
+  "key_quote": "Deepfake videos utilize sophisticated artificial intelligence algorithms to manipulate audio and video to make it appear as though the trusted person is promoting fraudulent investment platforms.",
+  "id": "features-vedette-2024-07-bulletin-deepfakes-hypertrucage-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2024/07/bulletin-deepfakes-hypertrucage-eng.htm",
+  "title": "Bulletin: Fraud using Deepfakes",
+  "date": "2024-07-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

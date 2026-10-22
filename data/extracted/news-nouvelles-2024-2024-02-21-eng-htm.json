@@ -1,0 +1,44 @@
+{
+  "typologies": [
+    "business_email_compromise"
+  ],
+  "contact_channels": [
+    "email"
+  ],
+  "pretexts": [
+    "supplier or contractor requests urgent payment to alternate bank account for invoice that is due",
+    "email appears to originate from trusted source"
+  ],
+  "payment_methods": [
+    "wire transfer"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "businesses"
+  ],
+  "emerging_tactics": [
+    "email account infiltration or spoofing",
+    "email rules to forward copies to fraudster accounts",
+    "domain spoofing to mimic legitimate company domains"
+  ],
+  "kill_chain_signals": {
+    "contact": "fraudsters send convincing emails from seemingly trusted source",
+    "pretext": "supplier or contractor sending email to accounts payable department requesting urgent payment to alternate bank account for invoice that is due",
+    "payment": "fraudulent transfer of $615,820 CAD",
+    "movement": "funds were frozen after timely reporting to Canadian Anti-Fraud Centre"
+  },
+  "red_flags": [
+    "urgent payment requests",
+    "changes in payment details",
+    "unusual requests",
+    "unsolicited emails with suspicious links or attachments",
+    "email address or domain that looks similar but not exact"
+  ],
+  "key_quote": "In 2023, Canadian businesses reported losing more than $58 million to spear phishing fraud.",
+  "id": "news-nouvelles-2024-2024-02-21-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/news-nouvelles/2024/2024-02-21-eng.htm",
+  "title": "Canadian Anti-fraud Centre and U.S. Secret Service freeze fraudulent transfer",
+  "date": "2024-02-21",
+  "source": "Canadian Anti-Fraud Centre"
+}

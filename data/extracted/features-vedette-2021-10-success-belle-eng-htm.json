@@ -1,0 +1,38 @@
+{
+  "typologies": [
+    "business_email_compromise"
+  ],
+  "contact_channels": [
+    "email"
+  ],
+  "pretexts": [
+    "email seemingly from a trusted source",
+    "spoofed or infiltrated business email account"
+  ],
+  "payment_methods": [
+    "wire transfer"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "businesses"
+  ],
+  "emerging_tactics": [
+    "spear phishing",
+    "email spoofing",
+    "email forwarding rules to monitor correspondence"
+  ],
+  "kill_chain_signals": {
+    "contact": "fraudsters send convincing emails seemingly from a trusted source",
+    "pretext": "fraudsters infiltrate or spoof a business or individual email account and study the sender's use of language and look for patterns linked to important contacts, payments, and dates",
+    "payment": "fraudulent transfer of $1.1 million",
+    "movement": "funds were frozen less than 24 hours after the Ontario-based business reported to the CAFC"
+  },
+  "red_flags": [],
+  "key_quote": "Fraudsters will infiltrate or spoof a business or individual email account.",
+  "id": "features-vedette-2021-10-success-belle-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2021/10/success-belle-eng.htm",
+  "title": "Success Story: CAFC and USSS freeze $1.1M",
+  "date": "2021-10-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

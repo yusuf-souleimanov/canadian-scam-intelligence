@@ -1,0 +1,43 @@
+{
+  "typologies": [
+    "identity_fraud"
+  ],
+  "contact_channels": [
+    "email",
+    "phone call",
+    "text message",
+    "mail"
+  ],
+  "pretexts": [
+    "unsolicited requests for personal and financial information"
+  ],
+  "payment_methods": [],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [],
+  "emerging_tactics": [
+    "database breach exploitation",
+    "social media account takeover",
+    "email account takeover"
+  ],
+  "kill_chain_signals": {
+    "contact": "unsolicited emails, phone calls, mail requesting personal and financial information",
+    "pretext": "fraudsters use stolen personal information to apply for government benefits, open credit cards and bank accounts, take over social media and email accounts",
+    "payment": "not applicable - fraudsters open unauthorized accounts rather than requesting direct payment",
+    "movement": "unauthorized applications or accounts showing up on credit report",
+    "cashout": "open credit cards and bank accounts, apply for government benefits, create unauthorized cell phone accounts"
+  },
+  "red_flags": [
+    "Missing bills or receiving bills from services providers you do not use",
+    "Unfamiliar transactions in your bank account or credit card statements",
+    "Letters regarding credit applications you did not submit",
+    "Unauthorized applications or accounts showing up on your credit report",
+    "Calls from creditors or collection agencies regarding accounts you did not open"
+  ],
+  "key_quote": "Fraudsters increasingly use stolen personal information to apply for government benefits, open credit cards and bank accounts, take over social medial and email accounts.",
+  "id": "features-vedette-2024-10-identity-fraud-fraude-identite-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2024/10/identity-fraud-fraude-identite-eng.htm",
+  "title": "Identity fraud",
+  "date": "2024-10-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

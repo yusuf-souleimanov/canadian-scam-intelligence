@@ -1,0 +1,47 @@
+{
+  "typologies": [
+    "recovery"
+  ],
+  "contact_channels": [
+    "phone call",
+    "email",
+    "social media",
+    "search engine optimization"
+  ],
+  "pretexts": [
+    "claim they can return funds lost in previous investment scam",
+    "falsely claim to be employees of investment regulators",
+    "falsely reference CIRO or predecessor organizations IIROC and MFDA"
+  ],
+  "payment_methods": [
+    "advance fee"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "previous investment scam victims"
+  ],
+  "emerging_tactics": [
+    "search engine optimization to appear in top search results",
+    "remote access to computer or device"
+  ],
+  "kill_chain_signals": {
+    "contact": "fraudsters keep a list and contact previous investment scam victims by telephone, email, social media or use search engine optimization",
+    "pretext": "claim to the victim that they can return the funds lost in a previous investment scam",
+    "payment": "fraudsters will tell victims that there is a fee for their services",
+    "cashout": "in the end, no funds are returned and more funds are potentially stolen"
+  },
+  "red_flags": [
+    "unsolicited contact promising to recover lost funds",
+    "request for advance fee to obtain a refund",
+    "request for remote access to computer or device",
+    "claims to be employee of investment regulator asking for payment",
+    "top search engine results do not mean companies are legitimate"
+  ],
+  "key_quote": "In most instances, these are frauds on top of fraud.",
+  "id": "news-nouvelles-2024-2024-09-25-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/news-nouvelles/2024/2024-09-25-eng.htm",
+  "title": "Recovery scams on the rise",
+  "date": "2024-09-25",
+  "source": "Canadian Anti-Fraud Centre"
+}

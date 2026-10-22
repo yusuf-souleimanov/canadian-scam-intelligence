@@ -1,0 +1,35 @@
+{
+  "typologies": [
+    "phishing_takeover"
+  ],
+  "contact_channels": [
+    "email",
+    "text message",
+    "social media direct message"
+  ],
+  "pretexts": [
+    "masquerading as a legitimate or trustworthy entity",
+    "impersonating a victim",
+    "legitimate-looking emails with links or attachments"
+  ],
+  "payment_methods": [],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [],
+  "emerging_tactics": [
+    "Phishing-as-a-service (PHaaS) kits",
+    "malware download via links or attachments",
+    "ransomware deployment"
+  ],
+  "kill_chain_signals": {
+    "contact": "emails, text messages or direct messages on social media",
+    "pretext": "masquerading as a legitimate or trustworthy entity"
+  },
+  "red_flags": [],
+  "key_quote": "Phishing is an online crime in which a perpetrator attempts to acquire sensitive information by masquerading as a legitimate or trustworthy entity.",
+  "id": "scams-fraudes-phishing-service-hameconnage-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/phishing-service-hameconnage-eng.htm",
+  "title": "Phishing is a crime",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

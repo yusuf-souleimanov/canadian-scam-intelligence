@@ -1,0 +1,35 @@
+{
+  "typologies": [],
+  "contact_channels": [],
+  "pretexts": [
+    "fraudsters impersonate government agencies"
+  ],
+  "payment_methods": [
+    "cryptocurrency",
+    "Bitcoin",
+    "Monero",
+    "Litecoin",
+    "Dash",
+    "Ethereum",
+    "Tether",
+    "Ripple"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [],
+  "emerging_tactics": [],
+  "kill_chain_signals": {
+    "payment": "Once you send your crypto it is gone"
+  },
+  "red_flags": [
+    "Government agencies do not accept cryptocurrencies",
+    "Once you send your crypto it is gone"
+  ],
+  "key_quote": "Government agencies do not accept cryptocurrencies.",
+  "key_facts": [],
+  "id": "features-vedette-2023-02-crypto-scam-escroqueries-crypto-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2023/02/crypto-scam-escroqueries-crypto-eng.htm",
+  "title": "Protect yourself from crypto scams! (Handout)",
+  "date": "2023-02-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

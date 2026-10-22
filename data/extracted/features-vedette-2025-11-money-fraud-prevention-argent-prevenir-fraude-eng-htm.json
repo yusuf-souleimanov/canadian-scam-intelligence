@@ -1,0 +1,45 @@
+{
+  "typologies": [],
+  "contact_channels": [
+    "phone call",
+    "text message",
+    "email"
+  ],
+  "pretexts": [
+    "unexpected requests for funds",
+    "unexpected fees or bills",
+    "job offers",
+    "investment opportunities"
+  ],
+  "payment_methods": [
+    "cryptocurrency",
+    "gift cards",
+    "e-transfers"
+  ],
+  "mentions_interac": true,
+  "interac_context": "The page warns never to pay unexpected fees or bills with e-transfers.",
+  "target_groups": [
+    "students",
+    "job seekers",
+    "seniors"
+  ],
+  "emerging_tactics": [],
+  "kill_chain_signals": {
+    "contact": "Fraudsters contact victims via phone calls, text messages and emails with links and attachments",
+    "pretext": "Fraudsters use urgency, fear and emotional manipulation to pressure victims with unexpected requests for funds, fees, job offers or investment opportunities",
+    "payment": "Victims are pressured into making quick financial decisions and told to pay with cryptocurrency, gift cards or e-transfers"
+  },
+  "red_flags": [
+    "Urgency, fear and emotional manipulation to pressure quick financial decisions",
+    "Unexpected requests for funds",
+    "Requests to pay fees or bills with cryptocurrency, gift cards or e-transfers",
+    "Caller requests personal information without verified identity",
+    "Links and attachments in text messages and emails"
+  ],
+  "key_quote": "Fraudsters often use urgency, fear and emotional manipulation to pressure victims into making quick financial decisions.",
+  "id": "features-vedette-2025-11-money-fraud-prevention-argent-prevenir-fraude-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2025/11/money-fraud-prevention-argent-prevenir-fraude-eng.htm",
+  "title": "Financial Literacy Month – let's talk about money and fraud prevention",
+  "date": "2025-11-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

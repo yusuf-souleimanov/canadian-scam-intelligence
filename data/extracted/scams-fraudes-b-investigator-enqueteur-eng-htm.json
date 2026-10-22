@@ -1,0 +1,61 @@
+{
+  "typologies": [
+    "bank_investigator"
+  ],
+  "contact_channels": [
+    "phone call",
+    "automated phone call",
+    "text message",
+    "email",
+    "in-person visit to residence"
+  ],
+  "pretexts": [
+    "caller claims to be financial institution reporting fraudulent transactions",
+    "caller claims to be law enforcement investigating account compromise",
+    "caller claims to be credit reporting agency",
+    "caller claims to be Amazon advising of fraudulent transactions",
+    "help needed in ongoing investigation against criminals",
+    "need to transfer money to protect account",
+    "need MFA code to confirm identity",
+    "need to collect debit or credit card from home as part of investigation"
+  ],
+  "payment_methods": [
+    "Interac e-Transfer",
+    "transfer to fraudulent payee account",
+    "funds taken from line of credit",
+    "funds taken from savings account"
+  ],
+  "mentions_interac": true,
+  "interac_context": "Enabling Auto-Deposits for Interac e-transfers provides an additional layer of security against this scam.",
+  "target_groups": [
+    "individuals"
+  ],
+  "emerging_tactics": [
+    "spoofed caller ID",
+    "remote access apps",
+    "one-time passcode theft",
+    "fraudulent payee added with fake email address",
+    "asking victim to cut card in half without damaging chip",
+    "showing victim fraudulent transactions on their own online bank account"
+  ],
+  "kill_chain_signals": {
+    "contact": "automated phone call claiming to be financial institution, law enforcement, credit reporting agency or Amazon",
+    "pretext": "advising fraudulent transactions in account and requesting help in ongoing investigation",
+    "payment": "tell victim to transfer large amount of money to protect account or send funds as part of investigation",
+    "movement": "fraudsters add victim as payee with fraudulent email address and convince victim they added funds but actually took money from line of credit or savings",
+    "cashout": "suspects come to residence to pick up debit or credit card"
+  },
+  "red_flags": [
+    "Criminals use Call-Spoofing to mislead victims",
+    "These institutions or law enforcement will never threaten you over the phone",
+    "Institutions or online merchants will never request transferring funds to an external account for security reasons",
+    "Institutions or police will never request you to turn over your bank card nor attend your residence to pick up your bank card",
+    "Don't share codes received via text message or email with anyone - these are multi-factor authentication codes"
+  ],
+  "key_quote": "Fraudsters will request access to your computer or device to continue the investigation.",
+  "id": "scams-fraudes-b-investigator-enqueteur-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/b-investigator-enqueteur-eng.htm",
+  "title": "Bank investigator",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

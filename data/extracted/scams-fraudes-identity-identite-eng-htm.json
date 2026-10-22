@@ -1,0 +1,48 @@
+{
+  "typologies": [
+    "identity_fraud",
+    "phishing_takeover"
+  ],
+  "contact_channels": [
+    "email",
+    "text message",
+    "phone call",
+    "mail"
+  ],
+  "pretexts": [
+    "unsolicited requests for personal or financial information"
+  ],
+  "payment_methods": [],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "Canadians"
+  ],
+  "emerging_tactics": [
+    "database breaches",
+    "computer spyware and viruses",
+    "phishing",
+    "social media account takeover",
+    "email account takeover"
+  ],
+  "kill_chain_signals": {
+    "contact": "unsolicited e-mails, text messages, telephone calls or mail asking for personal or financial information",
+    "pretext": "criminals stealing personal information through dumpster diving, mail theft, phishing or database breaches",
+    "payment": "criminals use stolen information to access bank accounts, transfer bank balances, apply for loans and credit cards, buy goods and services",
+    "movement": "open new bank accounts, transfer bank balances",
+    "cashout": "apply for loans and credit cards, buy goods and services, receive government benefits"
+  },
+  "red_flags": [
+    "unsolicited requests for personal or financial information via email, text, phone or mail",
+    "irregularities in credit reports, bank and credit card statements",
+    "missing mail",
+    "unauthorized access to computer or email accounts",
+    "unexpected applications for government benefits or credit cards"
+  ],
+  "key_quote": "Fraudsters are using personal information about Canadians to apply for government benefits, credit cards, bank accounts, cell phone accounts or even take over social media and email accounts.",
+  "id": "scams-fraudes-identity-identite-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/identity-identite-eng.htm",
+  "title": "Identity theft and fraud",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

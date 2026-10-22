@@ -1,0 +1,45 @@
+{
+  "typologies": [
+    "charity_other"
+  ],
+  "contact_channels": [
+    "mail",
+    "email",
+    "online"
+  ],
+  "pretexts": [
+    "lottery number predictions",
+    "lucky charm offer",
+    "removing a jinx",
+    "threat of collections if no further payment",
+    "threat of curse if no further payment"
+  ],
+  "payment_methods": [
+    "cash"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "individuals"
+  ],
+  "emerging_tactics": [],
+  "kill_chain_signals": {
+    "contact": "Deceptive offers received through mail, email or online",
+    "pretext": "offering psychic services such as lottery number predictions, a lucky charm, removing a jinx",
+    "payment": "You need to pay a fee, usually in cash, to sign up or continue services",
+    "movement": "After you pay the initial fee, the fraudster sends a follow-up message"
+  },
+  "red_flags": [
+    "Unsolicited psychic service offers",
+    "Request for cash payment",
+    "Follow-up demands for more payments after initial fee",
+    "Threats of collections for non-payment",
+    "Threats of curse for non-payment"
+  ],
+  "key_quote": "After you pay the initial fee, the fraudster sends a follow-up message.",
+  "id": "scams-fraudes-psychic-voyance-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/psychic-voyance-eng.htm",
+  "title": "Psychic",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

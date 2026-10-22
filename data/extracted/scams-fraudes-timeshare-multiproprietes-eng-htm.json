@@ -1,0 +1,42 @@
+{
+  "typologies": [
+    "advance_fee"
+  ],
+  "contact_channels": [
+    "phone call",
+    "email",
+    "fax"
+  ],
+  "pretexts": [
+    "offer to sell victim's timeshare",
+    "promise of quick sale with high profit margin",
+    "free stays in exchange for attending timeshare presentation"
+  ],
+  "payment_methods": [
+    "wire transfer"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "timeshare owners"
+  ],
+  "emerging_tactics": [],
+  "kill_chain_signals": {
+    "contact": "Canadians are being contacted by telephone or email and are presented with an offer to sell their timeshare",
+    "pretext": "The suspect promises a quick sale with a high profit margin. Various fees are requested up front prior to the final sale, which includes maintenance fees, escrow fees and taxes",
+    "payment": "Victims are often solicited by companies in Mexico or the United States and are required to wire funds to a bank account in Mexico or another country"
+  },
+  "red_flags": [
+    "Unsolicited offers to sell your timeshare",
+    "Requests for upfront fees before final sale",
+    "Required to wire funds to bank account in Mexico or another country",
+    "Hidden booking or maintenance fees",
+    "Company going out of business once they secure a deposit"
+  ],
+  "key_quote": "The suspect promises a quick sale with a high profit margin.",
+  "id": "scams-fraudes-timeshare-multiproprietes-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/timeshare-multiproprietes-eng.htm",
+  "title": "Timeshare",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

@@ -1,0 +1,57 @@
+{
+  "typologies": [
+    "romance",
+    "investment_crypto"
+  ],
+  "contact_channels": [
+    "dating websites",
+    "social media",
+    "wrong number text messages",
+    "email",
+    "text message"
+  ],
+  "pretexts": [
+    "professions of love",
+    "offers of support",
+    "family emergencies",
+    "unexpected legal expenses",
+    "travel fees",
+    "investment advice",
+    "crypto investment coaching"
+  ],
+  "payment_methods": [
+    "crypto",
+    "money transfer to new crypto accounts"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "people looking for love or companionship"
+  ],
+  "emerging_tactics": [
+    "conversational attacks via wrong number text messages",
+    "introducing victims to fake family on social media to legitimize relationship",
+    "crypto investment coaching",
+    "pump and dump schemes"
+  ],
+  "kill_chain_signals": {
+    "contact": "dating websites, social media and through wrong number text messages",
+    "pretext": "escalate initial communications into a trusting relationship including professions of love, offers of support, financial advice",
+    "payment": "ask for financial assistance or offer investment advice, coaching victims into crypto investment opportunities",
+    "movement": "direct you to send it to wallets they control",
+    "cashout": "send money to crypto wallets controlled by fraudsters"
+  },
+  "red_flags": [
+    "profiles that seem too perfect",
+    "someone you haven't met in person professing their love to you",
+    "requests to move communication to a more private or different method of communication",
+    "constant excuses not to meet up in person",
+    "anyone offering to coach you on crypto investing"
+  ],
+  "key_quote": "The fraudster's primary goal is to escalate initial communications into a trusting relationship.",
+  "id": "features-vedette-2026-02-valentine-day-saint-valentin-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/02/valentine-day-saint-valentin-eng.htm",
+  "title": "Relationship fraud",
+  "date": "2026-02-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

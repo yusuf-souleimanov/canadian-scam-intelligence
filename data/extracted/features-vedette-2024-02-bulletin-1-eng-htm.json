@@ -1,0 +1,86 @@
+{
+  "typologies": [
+    "investment_crypto",
+    "emergency_grandparent",
+    "job_mule",
+    "service_tech_support",
+    "phishing_takeover",
+    "business_email_compromise"
+  ],
+  "contact_channels": [
+    "phone call",
+    "email",
+    "social media ad",
+    "social media profile",
+    "dating website",
+    "instant messaging application",
+    "text message",
+    "in-person",
+    "door-to-door",
+    "mail",
+    "fraudulent online ads",
+    "search engine optimization"
+  ],
+  "pretexts": [
+    "fake cryptocurrency investment opportunity on social media",
+    "relative or friend in urgent need due to emergency",
+    "grandparent scam with in-person cash pickup",
+    "high-paying job as financial receiver or agent",
+    "freelance job to boost products, apps, or videos",
+    "mystery shopper job",
+    "tech support call",
+    "cellphone or internet service provider call",
+    "timeshare resale",
+    "immigration or visa website",
+    "air duct cleaning and home maintenance",
+    "email from bank or financial institution requesting personal information",
+    "text message impersonating service provider or government agency"
+  ],
+  "payment_methods": [
+    "cryptocurrency",
+    "e-transfer",
+    "cash",
+    "Western Union",
+    "Money Gram",
+    "crypto accounts or wallets",
+    "counterfeit cheques"
+  ],
+  "mentions_interac": true,
+  "interac_context": "In grandparent scams, fraudsters show up in person to pick up cash or request an e-transfer.",
+  "target_groups": [
+    "seniors",
+    "investors",
+    "job seekers",
+    "businesses"
+  ],
+  "emerging_tactics": [
+    "cryptocurrency investment fraud via social media",
+    "instant messaging applications for recruitment",
+    "fraudulent software for fake job tasks",
+    "automated phishing messages",
+    "malicious links and attachments in phishing",
+    "text message phishing",
+    "search engine optimization for fraudulent services",
+    "ransomware and spear phishing attacks"
+  ],
+  "kill_chain_signals": {
+    "contact": "Fraudsters post ads on social media and lure investors through fake profiles on social media, dating websites, and email",
+    "pretext": "Fraudsters show up in person to pick-up cash or request an e-transfer in grandparent scam; victims offered job as financial receiver or agent",
+    "payment": "Victims are asked to deposit their funds into crypto accounts or wallets; fraudsters request cryptocurrency, e-transfer, or cash",
+    "movement": "Victims told to accept payments into their personal bank account, keep a portion, and forward the remaining amount to third parties",
+    "cashout": "Fraudsters attempt to process many payments in a short amount of time before the victim's financial institution recognizes the fraud"
+  },
+  "red_flags": [
+    "Be careful when sending cryptocurrency; once the transaction is completed, it is unlikely to be reversed",
+    "If you receive funds from an unknown individual or company for any reason and are asked to forward it elsewhere - Don't!",
+    "If you are asked to boost apps, videos or merchandise, you will more than likely be providing fake reviews to fraudulent products",
+    "Never click on a link or attachment from an unsolicited message",
+    "If a caller claims to be a law enforcement official and asks you to pay a fine or bail, hang up and call your local police directly"
+  ],
+  "key_quote": "Specific scenarios may have evolved over time, but the underlying principles of exploiting emotions and urgency remain consistent.",
+  "id": "features-vedette-2024-02-bulletin-1-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2024/02/bulletin-1-eng.htm",
+  "title": "Bulletin: Evolution of the types of fraud",
+  "date": "2024-02-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

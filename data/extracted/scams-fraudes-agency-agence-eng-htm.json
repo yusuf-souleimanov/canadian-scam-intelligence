@@ -1,0 +1,37 @@
+{
+  "typologies": [
+    "extortion"
+  ],
+  "contact_channels": [
+    "phone call",
+    "fax"
+  ],
+  "pretexts": [
+    "caller demands payment for non-existent debt",
+    "impersonates collection agency"
+  ],
+  "payment_methods": [],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "individuals"
+  ],
+  "emerging_tactics": [],
+  "kill_chain_signals": {
+    "contact": "fraudster calls to demand payment",
+    "pretext": "demand payment for a non-existent debt",
+    "payment": "use high-pressure tactics to get you to pay immediately"
+  },
+  "red_flags": [
+    "high-pressure tactics to pay immediately",
+    "demand for immediate payment",
+    "no written notice through regular mail",
+    "collection agency not registered with provincial agency"
+  ],
+  "key_quote": "They use high-pressure tactics to get you to pay immediately.",
+  "id": "scams-fraudes-agency-agence-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/agency-agence-eng.htm",
+  "title": "Collection agency",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

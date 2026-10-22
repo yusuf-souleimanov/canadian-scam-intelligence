@@ -1,0 +1,66 @@
+{
+  "typologies": [
+    "phishing_takeover",
+    "identity_fraud",
+    "investment_crypto",
+    "merchandise_marketplace",
+    "vendor_overpayment",
+    "service_tech_support",
+    "advance_fee"
+  ],
+  "contact_channels": [
+    "email",
+    "text message",
+    "social media message",
+    "phone call",
+    "search engine results"
+  ],
+  "pretexts": [
+    "claim to be service provider, government agency, or financial institution",
+    "fake celebrity endorsements for investments or merchandise",
+    "fake payment notification requiring QR code scan to receive funds",
+    "compromised social media account offering crypto investment, job, prize, or grant",
+    "caller ID spoofing to appear as trustworthy organization"
+  ],
+  "payment_methods": [
+    "cryptocurrency",
+    "QR codes"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "Canadians new to the cyber environment",
+    "less tech-savvy individuals",
+    "businesses without cyber protection or procedures"
+  ],
+  "emerging_tactics": [
+    "AI-personalized phishing emails",
+    "deepfake videos and audio for fake celebrity endorsements",
+    "QR codes in phishing emails and texts",
+    "AI-automated fake account creation",
+    "credential stuffing attacks using stolen data from breaches",
+    "search engine optimization to promote fraudulent sites",
+    "compromised social media accounts",
+    "spoofed caller ID, email addresses, and websites"
+  ],
+  "kill_chain_signals": {
+    "contact": "unsolicited text messages, emails, and social media messages; incoming phone calls; fraudulent websites appearing in top search results",
+    "pretext": "fraudsters claim to be service provider, government agency, or financial institution; fake celebrity endorsements; fake payment notifications",
+    "payment": "victims instructed to scan QR code to make payment or provide banking information; directed to send cryptocurrency by scanning QR code",
+    "movement": "payments sent to crypto wallets controlled by fraudsters",
+    "cashout": "fraudsters gain access to victim's bank account or receive cryptocurrency payments"
+  },
+  "red_flags": [
+    "Unsolicited messages asking you to scan a QR code",
+    "Celebrity or trustworthy figure promoting merchandise or crypto investments may be deepfake",
+    "First few search results may be fraudulent websites",
+    "Strange message from social media contact",
+    "Incoming call asking for personal information or money"
+  ],
+  "key_quote": "Fraudsters are increasingly using artificial intelligence (AI) and related technologies to commit various forms of fraud.",
+  "id": "features-vedette-2024-03-bulletin-4-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2024/03/bulletin-4-eng.htm",
+  "title": "Bulletin: New technology",
+  "date": "2024-03-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

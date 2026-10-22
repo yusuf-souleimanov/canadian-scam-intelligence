@@ -1,0 +1,61 @@
+{
+  "typologies": [
+    "investment_crypto",
+    "romance",
+    "identity_fraud",
+    "phishing_takeover",
+    "recovery"
+  ],
+  "contact_channels": [
+    "email",
+    "text message",
+    "online"
+  ],
+  "pretexts": [
+    "fraudulent investment platforms promising high returns",
+    "fake advisors promising high returns",
+    "fraudsters build trust online in relationships",
+    "fraudulent emails or text messages",
+    "claim they can recover lost money for a fee"
+  ],
+  "payment_methods": [
+    "cryptocurrency"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "seniors",
+    "students",
+    "workers",
+    "families",
+    "retirees",
+    "professionals"
+  ],
+  "emerging_tactics": [
+    "deepfakes",
+    "artificial intelligence",
+    "fake websites",
+    "stolen identities",
+    "social engineering"
+  ],
+  "kill_chain_signals": {
+    "contact": "Fraudulent emails or text messages; fraudsters build trust online",
+    "pretext": "Fraudsters use pressure, fear, urgency, and emotion to manipulate their victims",
+    "payment": "Cryptocurrencies and other real time payments",
+    "movement": "Once money is sent, it is often moved quickly",
+    "cashout": "difficult to recover"
+  },
+  "red_flags": [
+    "pressure, fear, urgency, and emotion used to manipulate",
+    "promises of high returns",
+    "requests to send money to someone met online",
+    "unsolicited emails or text messages asking for personal information",
+    "claims to recover lost money for a fee"
+  ],
+  "key_quote": "Fraudsters use pressure, fear, urgency, and emotion to manipulate their victims.",
+  "id": "features-vedette-2026-02-rise-fraud-montee-fraude-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/02/rise-fraud-montee-fraude-eng.htm",
+  "title": "The rise of fraud",
+  "date": "2026-02-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

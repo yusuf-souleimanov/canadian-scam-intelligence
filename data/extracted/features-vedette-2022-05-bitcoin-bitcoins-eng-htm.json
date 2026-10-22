@@ -1,0 +1,49 @@
+{
+  "typologies": [
+    "investment_crypto"
+  ],
+  "contact_channels": [
+    "phone call",
+    "email",
+    "social media",
+    "dating website"
+  ],
+  "pretexts": [
+    "investment opportunities with higher than normal returns",
+    "unsolicited investment offers",
+    "friend recommends cryptocurrency investment",
+    "individual met on dating site convinces victim to invest in cryptocurrency"
+  ],
+  "payment_methods": [
+    "Bitcoin",
+    "cryptocurrency"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [],
+  "emerging_tactics": [
+    "romance lead-in to crypto investment",
+    "compromised social media accounts recommending investments",
+    "directing victims to open and fund new crypto accounts"
+  ],
+  "kill_chain_signals": {
+    "contact": "Unsolicited telephone, email or social media investment offers; individual met on dating or social media website",
+    "pretext": "Investment opportunities with higher than normal returns; displays of urgency so you don't miss out",
+    "payment": "Fraudsters asking you to open and fund new crypto accounts and send it to wallets they control",
+    "movement": "$17,000 fraudulent Bitcoin transfer",
+    "cashout": "They will direct you to send it to wallets they control"
+  },
+  "red_flags": [
+    "Investment opportunities with higher than normal returns",
+    "Unsolicited telephone, email or social media investment offers",
+    "Displays of urgency so you don't miss out",
+    "Individual met on dating or social media website who quickly attempts to convince you to invest into cryptocurrency",
+    "Friend tells you about a cryptocurrency investment opportunity via social media or email"
+  ],
+  "key_quote": "Investment scams were the highest reported scams based on dollar loss in 2021 for which victims reported losses of $163.9 Million to CAFC.",
+  "id": "features-vedette-2022-05-bitcoin-bitcoins-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2022/05/bitcoin-bitcoins-eng.htm",
+  "title": "CAFC and Winnipeg Police Service recover $17,000 in Bitcoin",
+  "date": "2022-05-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

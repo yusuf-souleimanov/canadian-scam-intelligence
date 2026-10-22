@@ -1,0 +1,70 @@
+{
+  "typologies": [
+    "phishing_takeover",
+    "identity_fraud",
+    "service_tech_support",
+    "extortion",
+    "charity_other",
+    "advance_fee",
+    "investment_crypto"
+  ],
+  "contact_channels": [
+    "email",
+    "text message",
+    "phone call",
+    "door-to-door",
+    "online ads"
+  ],
+  "pretexts": [
+    "COVID-19 vaccine appointment scheduled",
+    "eligible for Vaccine Relief Fund",
+    "offering home vaccination kits for a fee",
+    "selling fast COVID-19 tests",
+    "offering to help fill out CERB applications",
+    "claiming to be from Ministry of Health",
+    "claiming to be from Government of Canada",
+    "claiming to be from pharmaceutical company offering 6 shot vaccine system",
+    "posing as Public Health Agency of Canada with false positive test results",
+    "posing as Red Cross offering free masks for donation",
+    "offering loans and financial assistance",
+    "threatening to disconnect power for non-payment",
+    "selling lists of COVID-19 infected people",
+    "offering household decontamination services",
+    "selling counterfeit vaccine passports",
+    "offering miracle cures and herbal remedies"
+  ],
+  "payment_methods": [
+    "up-front fee",
+    "donation",
+    "large sums of money by mail"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [],
+  "emerging_tactics": [
+    "malicious COVID-19 notification apps",
+    "spoofed government and healthcare communications",
+    "malicious links that freeze computer and demand ransom",
+    "counterfeit vaccine passports"
+  ],
+  "kill_chain_signals": {
+    "contact": "Unsolicited calls, emails and texts requesting urgent action or payment",
+    "pretext": "Text message claims to be from Ministry of Health saying third COVID-19 vaccine has been scheduled",
+    "payment": "Phone calls offering home vaccination kits for an up-front fee or large sums of money",
+    "movement": "Criminals using your identity to sign-up for CERB and receive payments",
+    "cashout": "Questionable third-party companies offer to help fill out CERB applications for a fee"
+  },
+  "red_flags": [
+    "If you didn't initiate contact, you don't know who you're communicating to",
+    "Unsolicited calls, emails and texts requesting urgent action or payment",
+    "Don't be pressured into making a donation",
+    "Only official health care providers can perform the tests",
+    "The only way to access safe and effective COVID-19 vaccines is through clinics organized or endorsed by your local public health authority"
+  ],
+  "key_quote": "If you didn't initiate contact, you don't know who you're communicating to",
+  "id": "features-vedette-2020-covid-19-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2020/covid-19-eng.htm",
+  "title": "COVID-19 fraud",
+  "date": "2020-01-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

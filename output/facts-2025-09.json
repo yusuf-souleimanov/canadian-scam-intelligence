@@ -1,0 +1,379 @@
+{
+  "facts": {
+    "headline_12m": {
+      "period": "2024-10 to 2025-09",
+      "reports": 37102,
+      "victims": 26321,
+      "loss": 564357836.65,
+      "senior_loss_share": 0.3676326025019325,
+      "data_through": "2025-09",
+      "loss_millions": 564.4,
+      "senior_loss_share_pct": 36.8
+    },
+    "comparison": "2025-04 to 2025-09 vs 2024-04 to 2024-09",
+    "typology_figures_cover": "the 6 months 2025-04 to 2025-09 only (not the 12-month headline)",
+    "window_total_loss_millions": 279.7,
+    "reporting_note": "Total CAFC report volumes have fallen every year since 2021, so falling report counts do not necessarily mean less fraud; loss mix and median loss per victim are more reliable. Only call growth real when growth_is_robust is true.",
+    "typologies": [
+      {
+        "name": "Investment / crypto scam (incl. pig butchering)",
+        "interac_exposure": "Medium",
+        "reports": 1592,
+        "reports_yoy_pct": -3.5,
+        "loss_millions": 151.42,
+        "loss_yoy_pct": 26.1,
+        "share_of_window_losses_pct": 54.1,
+        "loss_yoy_excluding_top3_reports_pct": 24.4,
+        "growth_is_robust": true,
+        "median_loss_per_victim": 32000,
+        "median_loss_prev": 25000,
+        "senior_loss_share_pct": 51.7
+      },
+      {
+        "name": "Business email compromise & false billing",
+        "interac_exposure": "Low",
+        "reports": 445,
+        "reports_yoy_pct": -28.8,
+        "loss_millions": 31.54,
+        "loss_yoy_pct": 13.5,
+        "share_of_window_losses_pct": 11.3,
+        "loss_yoy_excluding_top3_reports_pct": 50.1,
+        "growth_is_robust": false,
+        "median_loss_per_victim": 38000,
+        "median_loss_prev": 8961,
+        "senior_loss_share_pct": 3.9
+      },
+      {
+        "name": "Romance scam",
+        "interac_exposure": "Medium",
+        "reports": 368,
+        "reports_yoy_pct": -14.0,
+        "loss_millions": 25.96,
+        "loss_yoy_pct": 25.6,
+        "share_of_window_losses_pct": 9.3,
+        "loss_yoy_excluding_top3_reports_pct": 45.5,
+        "growth_is_robust": true,
+        "median_loss_per_victim": 30000,
+        "median_loss_prev": 20600,
+        "senior_loss_share_pct": 48.1
+      },
+      {
+        "name": "Job scams & money-mule recruitment",
+        "interac_exposure": "High",
+        "reports": 759,
+        "reports_yoy_pct": -22.4,
+        "loss_millions": 15.8,
+        "loss_yoy_pct": -1.7,
+        "share_of_window_losses_pct": 5.6,
+        "loss_yoy_excluding_top3_reports_pct": -12.6,
+        "growth_is_robust": false,
+        "median_loss_per_victim": 14200,
+        "median_loss_prev": 10000,
+        "senior_loss_share_pct": 10.6
+      },
+      {
+        "name": "Recovery pitch (re-victimization)",
+        "interac_exposure": "Medium",
+        "reports": 486,
+        "reports_yoy_pct": 49.5,
+        "loss_millions": 15.64,
+        "loss_yoy_pct": 336.3,
+        "share_of_window_losses_pct": 5.6,
+        "loss_yoy_excluding_top3_reports_pct": 291.6,
+        "growth_is_robust": true,
+        "median_loss_per_victim": 17575,
+        "median_loss_prev": 7550,
+        "senior_loss_share_pct": 55.4
+      },
+      {
+        "name": "Bank investigator / impersonation",
+        "interac_exposure": "High",
+        "reports": 899,
+        "reports_yoy_pct": -36.8,
+        "loss_millions": 11.53,
+        "loss_yoy_pct": 4.4,
+        "share_of_window_losses_pct": 4.1,
+        "loss_yoy_excluding_top3_reports_pct": 24.5,
+        "growth_is_robust": false,
+        "median_loss_per_victim": 10000,
+        "median_loss_prev": 7000,
+        "senior_loss_share_pct": 36.9
+      },
+      {
+        "name": "Advance fee (prize, loan, grant, inheritance)",
+        "interac_exposure": "Medium",
+        "reports": 430,
+        "reports_yoy_pct": -25.3,
+        "loss_millions": 7.92,
+        "loss_yoy_pct": 26.3,
+        "share_of_window_losses_pct": 2.8,
+        "loss_yoy_excluding_top3_reports_pct": 27.4,
+        "growth_is_robust": true,
+        "median_loss_per_victim": 2372,
+        "median_loss_prev": 2900,
+        "senior_loss_share_pct": 35.9
+      },
+      {
+        "name": "Extortion (CRA, sextortion, threats)",
+        "interac_exposure": "Medium",
+        "reports": 833,
+        "reports_yoy_pct": -37.5,
+        "loss_millions": 7.06,
+        "loss_yoy_pct": -3.3,
+        "share_of_window_losses_pct": 2.5,
+        "loss_yoy_excluding_top3_reports_pct": 22.3,
+        "growth_is_robust": false,
+        "median_loss_per_victim": 6000,
+        "median_loss_prev": 3196,
+        "senior_loss_share_pct": 13.3
+      },
+      {
+        "name": "Service & tech-support scams",
+        "interac_exposure": "Medium",
+        "reports": 1307,
+        "reports_yoy_pct": -40.7,
+        "loss_millions": 6.47,
+        "loss_yoy_pct": -26.6,
+        "share_of_window_losses_pct": 2.3,
+        "loss_yoy_excluding_top3_reports_pct": -16.5,
+        "growth_is_robust": false,
+        "median_loss_per_victim": 1542,
+        "median_loss_prev": 2500,
+        "senior_loss_share_pct": 31.0
+      },
+      {
+        "name": "Marketplace / merchandise (non-delivery)",
+        "interac_exposure": "High",
+        "reports": 936,
+        "reports_yoy_pct": -37.1,
+        "loss_millions": 3.35,
+        "loss_yoy_pct": -18.9,
+        "share_of_window_losses_pct": 1.2,
+        "loss_yoy_excluding_top3_reports_pct": -12.8,
+        "growth_is_robust": false,
+        "median_loss_per_victim": 300,
+        "median_loss_prev": 448,
+        "senior_loss_share_pct": 15.4
+      },
+      {
+        "name": "Seller-side / overpayment & fake payment notice",
+        "interac_exposure": "High",
+        "reports": 180,
+        "reports_yoy_pct": -42.9,
+        "loss_millions": 1.68,
+        "loss_yoy_pct": 40.3,
+        "share_of_window_losses_pct": 0.6,
+        "loss_yoy_excluding_top3_reports_pct": -40.5,
+        "growth_is_robust": false,
+        "median_loss_per_victim": 1439,
+        "median_loss_prev": 2000,
+        "senior_loss_share_pct": 54.0
+      },
+      {
+        "name": "Emergency / grandparent scam",
+        "interac_exposure": "Medium",
+        "reports": 219,
+        "reports_yoy_pct": -53.8,
+        "loss_millions": 0.99,
+        "loss_yoy_pct": -25.2,
+        "share_of_window_losses_pct": 0.4,
+        "loss_yoy_excluding_top3_reports_pct": -61.8,
+        "growth_is_robust": false,
+        "median_loss_per_victim": 3000,
+        "median_loss_prev": 4500,
+        "senior_loss_share_pct": 59.3
+      },
+      {
+        "name": "Charity, psychic & other",
+        "interac_exposure": "Low",
+        "reports": 27,
+        "reports_yoy_pct": -50.0,
+        "loss_millions": 0.34,
+        "loss_yoy_pct": -25.5,
+        "share_of_window_losses_pct": 0.1,
+        "loss_yoy_excluding_top3_reports_pct": 159.0,
+        "growth_is_robust": false,
+        "median_loss_per_victim": 1963,
+        "median_loss_prev": 580,
+        "senior_loss_share_pct": 40.4
+      },
+      {
+        "name": "Identity fraud (new accounts / loans in victim's name)",
+        "interac_exposure": "Medium",
+        "reports": 3975,
+        "reports_yoy_pct": -16.2,
+        "loss_millions": 0.0,
+        "loss_yoy_pct": null,
+        "share_of_window_losses_pct": 0.0,
+        "loss_yoy_excluding_top3_reports_pct": null,
+        "growth_is_robust": false,
+        "median_loss_per_victim": 0,
+        "median_loss_prev": 0,
+        "senior_loss_share_pct": null
+      },
+      {
+        "name": "Phishing \u2192 account takeover",
+        "interac_exposure": "High",
+        "reports": 2517,
+        "reports_yoy_pct": -8.2,
+        "loss_millions": 0.0,
+        "loss_yoy_pct": null,
+        "share_of_window_losses_pct": 0.0,
+        "loss_yoy_excluding_top3_reports_pct": null,
+        "growth_is_robust": false,
+        "median_loss_per_victim": 0,
+        "median_loss_prev": 0,
+        "senior_loss_share_pct": null
+      }
+    ],
+    "channel_shift_pts": {
+      "Direct call": -1.0,
+      "Internet-social network": 0.9,
+      "Email": -0.5,
+      "Internet": -1.6,
+      "Text message": 2.2,
+      "Door to door/in person": -0.6,
+      "Mail": 0.6,
+      "Video Call": 0.1,
+      "Television": 0.1,
+      "Print": 0.0,
+      "Fax": 0.0,
+      "Radio": -0.0
+    },
+    "bulletins": {
+      "documents_analysed": 83,
+      "documents_naming_interac": 8,
+      "top_payment_methods": [
+        [
+          "cryptocurrency",
+          27
+        ],
+        [
+          "wire transfer",
+          17
+        ],
+        [
+          "gift cards",
+          9
+        ],
+        [
+          "interac e-transfer",
+          8
+        ],
+        [
+          "credit card",
+          7
+        ],
+        [
+          "money service businesses",
+          4
+        ],
+        [
+          "cash",
+          4
+        ],
+        [
+          "money transfer",
+          3
+        ]
+      ],
+      "recent_tactics_2025_on": [
+        [
+          "deepfakes / ai voice cloning",
+          6
+        ],
+        [
+          "spoofed caller id",
+          4
+        ],
+        [
+          "one-time passcode theft",
+          4
+        ],
+        [
+          "spear phishing",
+          3
+        ],
+        [
+          "social engineering",
+          2
+        ],
+        [
+          "exploiting data breaches",
+          2
+        ],
+        [
+          "fake payment notifications via email or text",
+          1
+        ],
+        [
+          "paid advertisements on social media platforms",
+          1
+        ]
+      ]
+    }
+  },
+  "recommendations": [
+    {
+      "stage": "payment",
+      "control": "Risk flag on repeated escalating transfers to crypto on-ramps",
+      "owner": "FIs",
+      "effort": 2,
+      "cost": 2,
+      "impact": 3,
+      "typology": "investment_crypto",
+      "typology_name": "Investment / crypto scam (incl. pig butchering)",
+      "interac_exposure": "Medium",
+      "loss_share": 0.5413440177371353,
+      "loss_yoy": 0.24357005077101856,
+      "priority": 0.9607186560141288
+    },
+    {
+      "stage": "contact",
+      "control": "Proactive outreach to known victims warning about recovery scams",
+      "owner": "FIs / police",
+      "effort": 1,
+      "cost": 1,
+      "impact": 2,
+      "typology": "recovery",
+      "typology_name": "Recovery pitch (re-victimization)",
+      "interac_exposure": "Medium",
+      "loss_share": 0.05590816704634345,
+      "loss_yoy": 2.915503370897073,
+      "priority": 0.6620574217115406
+    },
+    {
+      "stage": "contact",
+      "control": "Campus / youth awareness: 'if a job pays you to move money, you are the mule'",
+      "owner": "Network / schools",
+      "effort": 1,
+      "cost": 1,
+      "impact": 2,
+      "typology": "job_mule",
+      "typology_name": "Job scams & money-mule recruitment",
+      "interac_exposure": "High",
+      "loss_share": 0.05649021292026771,
+      "loss_yoy": -0.12617707126475142,
+      "priority": 0.4153746972214019
+    }
+  ],
+  "prose": {
+    "bottom_line": "Investment scams now own 54% of all fraud losses, up 26% year-over-year with median victim loss climbing from $25K to $32K. Recovery pitches surged 336%, re-victimizing the same pool at $15.6M in six months.",
+    "key_judgements": [
+      "Investment and crypto scams drove $151.4M in losses across six months (54% of total), with robust 26% growth despite flat report volumes.",
+      "Recovery pitch losses exploded 336% to $15.6M as median loss per victim more than doubled from $7,550 to $17,575.",
+      "Romance scams posted 26% loss growth to $26M with median loss jumping from $20,600 to $30K, signaling deeper victim exploitation.",
+      "Text message contact share rose 2.2 percentage points while direct calls fell 1.0 point, suggesting fraudsters are shifting to asynchronous channels that evade real-time intervention."
+    ],
+    "watch_list": [
+      "Deepfakes and AI voice cloning appeared in 6 recent bulletins and could amplify bank investigator impersonation and emergency scams by defeating voice-based authentication and family recognition.",
+      "One-time passcode theft tactics (4 bulletins) directly threaten phishing-to-account-takeover scenarios and any control relying on SMS or email verification.",
+      "Fake payment notifications via email or text (1 bulletin) enable seller-side overpayment scams and could undermine trust in legitimate Interac e-Transfer alerts."
+    ],
+    "recommendation_rationales": [
+      "Investment scams account for $151.4M (54% of losses) with 26% growth and medium Interac exposure; flagging repeated escalating transfers to crypto on-ramps targets the payment choke-point where victims liquidate savings before losses crystallize.",
+      "Recovery pitch losses jumped 336% to $15.6M as fraudsters circle back to a known victim pool; proactive outreach costs little and directly interrupts re-victimization before the second payment leaves the account.",
+      "Job scams remain high Interac exposure with $15.8M in losses and a $14,200 median; youth-focused awareness addresses the recruitment funnel before individuals become money mules, reducing downstream transaction risk across all typologies."
+    ]
+  }
+}

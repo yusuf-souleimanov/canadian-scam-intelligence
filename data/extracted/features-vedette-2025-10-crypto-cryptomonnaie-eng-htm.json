@@ -1,0 +1,54 @@
+{
+  "typologies": [
+    "investment_crypto"
+  ],
+  "contact_channels": [
+    "social media ad",
+    "text message",
+    "email",
+    "fake trading platforms",
+    "dating apps",
+    "social media"
+  ],
+  "pretexts": [
+    "guaranteed returns",
+    "risk-free crypto investment platforms",
+    "fake endorsements",
+    "impersonating politicians",
+    "impersonating celebrities",
+    "impersonating financial advisors",
+    "impersonating government agencies",
+    "individuals met on dating or social media educate and convince victim to invest in cryptocurrency"
+  ],
+  "payment_methods": [
+    "send money to crypto wallets controlled by fraudsters",
+    "open and fund new crypto accounts"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [],
+  "emerging_tactics": [
+    "fake trading platforms",
+    "fake celebrity endorsements",
+    "romance-to-investment pivot on dating apps"
+  ],
+  "kill_chain_signals": {
+    "contact": "Fraudsters use social media ads, text messages, emails, and fake trading platforms to lure Canadians",
+    "pretext": "They may impersonate politicians, celebrities, financial advisors, or government agencies to gain trust",
+    "payment": "Beware of fraudsters asking you to open and fund new crypto accounts. They will direct you to send it to wallets they control",
+    "movement": "Once money is sent, it's often transferred overseas and is very difficult to recover"
+  },
+  "red_flags": [
+    "guaranteed or risk-free returns",
+    "pressure or urgency to send money",
+    "individuals met on dating or social media who attempt to educate and convince you to invest into cryptocurrency",
+    "requests to open and fund new crypto accounts",
+    "fake endorsements from politicians or celebrities"
+  ],
+  "key_quote": "Once money is sent, it's often transferred overseas and is very difficult to recover.",
+  "id": "features-vedette-2025-10-crypto-cryptomonnaie-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2025/10/crypto-cryptomonnaie-eng.htm",
+  "title": "Investment and crypto investment fraud",
+  "date": "2025-10-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

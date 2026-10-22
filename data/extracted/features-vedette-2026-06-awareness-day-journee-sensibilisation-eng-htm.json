@@ -1,0 +1,56 @@
+{
+  "typologies": [
+    "investment_crypto",
+    "advance_fee",
+    "romance",
+    "emergency_grandparent",
+    "bank_investigator"
+  ],
+  "contact_channels": [
+    "phone call",
+    "email",
+    "text message",
+    "social media message"
+  ],
+  "pretexts": [
+    "fake investment opportunities promising high returns with little or no risk",
+    "falsely told they have won a prize, lottery, or contest",
+    "fraudsters build relationships online to gain trust and create emotional connections",
+    "impersonate a grandchild, family member, or loved one claiming there is an emergency",
+    "impersonate financial institutions, law enforcement, or fraud departments claiming accounts have been compromised"
+  ],
+  "payment_methods": [
+    "cryptocurrency",
+    "gift cards",
+    "wire transfer",
+    "cash"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "seniors"
+  ],
+  "emerging_tactics": [
+    "spoofed caller ID",
+    "remote access apps",
+    "multi-factor authentication code theft"
+  ],
+  "kill_chain_signals": {
+    "contact": "Unsolicited phone calls, emails, text messages, or social media messages",
+    "pretext": "Fraudsters use pressure, fear, trust, or emotional manipulation; impersonate grandchild, family member, financial institutions, or law enforcement",
+    "payment": "Instructions to send money through cryptocurrency, gift cards, wire transfers, or cash; requests for upfront payments, fees, or taxes; victims pressured to move money or hand over bank cards to a courier"
+  },
+  "red_flags": [
+    "Pressure to act immediately",
+    "Requests to keep conversations secret",
+    "Promises of guaranteed profits, winnings, or prizes",
+    "Requests for passwords, banking information, or multi-factor authentication codes",
+    "Emotional manipulation intended to create panic, fear, or urgency"
+  ],
+  "key_quote": "Fraudsters often use pressure, fear, trust, or emotional manipulation to convince victims to send money or share personal and financial information.",
+  "id": "features-vedette-2026-06-awareness-day-journee-sensibilisation-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/06/awareness-day-journee-sensibilisation-eng.htm",
+  "title": "World Elder Abuse Awareness Day",
+  "date": "2026-06-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

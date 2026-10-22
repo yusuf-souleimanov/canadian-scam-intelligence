@@ -1,0 +1,46 @@
+{
+  "typologies": [
+    "identity_fraud",
+    "extortion",
+    "advance_fee"
+  ],
+  "contact_channels": [
+    "phone call",
+    "fax",
+    "email"
+  ],
+  "pretexts": [
+    "caller claims to be from government offering Hurricane Fiona flood assistance",
+    "caller claims to be from business, government agency, bank, or utility company",
+    "urgent request to verify personal information"
+  ],
+  "payment_methods": [
+    "gift cards"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "individuals"
+  ],
+  "emerging_tactics": [],
+  "kill_chain_signals": {
+    "contact": "suspects calling victims; unsolicited request via phone, fax, or email",
+    "pretext": "claiming to be from government offering financial assistance for Hurricane Fiona flooding; pretending to be from business, government agency, bank, or utility company urgently asking to verify personal information",
+    "payment": "ask you to purchase gift cards",
+    "movement": "once you provide this information, the fraudster may use it",
+    "cashout": "use it for identity fraud"
+  },
+  "red_flags": [
+    "unsolicited request for personal information",
+    "urgent request to verify information",
+    "government asking for gift card payments",
+    "caller requesting Social Insurance Number",
+    "request for account information over phone or email"
+  ],
+  "key_quote": "The government will not call you and ask for personal information or for gift card payments.",
+  "id": "scams-fraudes-personal-info-personnels-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/personal-info-personnels-eng.htm",
+  "title": "Personal information",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

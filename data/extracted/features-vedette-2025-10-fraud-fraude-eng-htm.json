@@ -1,0 +1,33 @@
+{
+  "typologies": [
+    "identity_fraud"
+  ],
+  "contact_channels": [],
+  "pretexts": [
+    "fraudsters exploit weaknesses in old operating systems, browsers, and apps"
+  ],
+  "payment_methods": [],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [],
+  "emerging_tactics": [
+    "exploiting outdated software vulnerabilities"
+  ],
+  "kill_chain_signals": {
+    "contact": "fraudsters exploit weaknesses in old operating systems, browsers, and apps to steal personal information",
+    "pretext": "once they have your data, they can impersonate you to commit fraud"
+  },
+  "red_flags": [
+    "old operating systems, browsers, and apps not updated",
+    "automatic updates not enabled",
+    "routers and smart devices not updated",
+    "sensitive information stored on devices (SIN, government IDs, tax documents)",
+    "unfamiliar transactions or credit inquiries in accounts and credit reports"
+  ],
+  "key_quote": "Fraudsters exploit weaknesses in old operating systems, browsers, and apps to steal personal information.",
+  "id": "features-vedette-2025-10-fraud-fraude-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2025/10/fraud-fraude-eng.htm",
+  "title": "Fraud tip: keep your devices up to date",
+  "date": "2025-10-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

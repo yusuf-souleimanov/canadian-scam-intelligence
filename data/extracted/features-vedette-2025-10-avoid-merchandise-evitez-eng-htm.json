@@ -1,0 +1,49 @@
+{
+  "typologies": [
+    "merchandise_marketplace",
+    "vendor_overpayment"
+  ],
+  "contact_channels": [
+    "online marketplace",
+    "classified ad sites",
+    "social media ad",
+    "fake websites",
+    "email",
+    "text message"
+  ],
+  "pretexts": [
+    "fraudster poses as buyer and sends overpayment",
+    "fraudster poses as seller but never ships product",
+    "fake payment confirmation sent to seller",
+    "limited time offer or today only sale",
+    "counterfeit goods at drastic discounts"
+  ],
+  "payment_methods": [],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [],
+  "emerging_tactics": [
+    "fake payment notifications via email or text",
+    "paid advertisements on social media platforms",
+    "fake websites mimicking legitimate sellers"
+  ],
+  "kill_chain_signals": {
+    "contact": "Traffic to fake websites generated through paid advertisements on social media platforms like Facebook and Instagram",
+    "pretext": "Fraudsters pose as buyers sending overpayments or as sellers collecting payment, or create fake websites with limited time offers",
+    "payment": "Seller refunds difference after overpayment, or buyer sends payment for non-existent merchandise",
+    "movement": "Original payment bounces or is reversed after seller has refunded the difference"
+  },
+  "red_flags": [
+    "Blowout sales or greatly reduced prices (e.g. 80% off)",
+    "Text with spelling errors or references to the product as 'the item'",
+    "Overseas buyers who want to make a purchase without seeing the product first",
+    "Overpayments for items you are selling",
+    "Sellers with recently created social media profiles"
+  ],
+  "key_quote": "Taking a few extra seconds to pause and verify can save you from losing money and personal information.",
+  "id": "features-vedette-2025-10-avoid-merchandise-evitez-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2025/10/avoid-merchandise-evitez-eng.htm",
+  "title": "Check twice, pay once: starting new habits to avoid merchandise fraud",
+  "date": "2025-10-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

@@ -1,0 +1,42 @@
+{
+  "typologies": [
+    "emergency_grandparent"
+  ],
+  "contact_channels": [
+    "phone call"
+  ],
+  "pretexts": [
+    "caller pretends to be family member in distress",
+    "caller claims to be police or justice official saying loved one or grandchild is in trouble",
+    "caller claims to be a lawyer in an emergency situation",
+    "victim told there is a gag order and can't speak to anyone"
+  ],
+  "payment_methods": [
+    "cash courier",
+    "cryptocurrency"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "seniors"
+  ],
+  "emerging_tactics": [],
+  "kill_chain_signals": {
+    "contact": "Fraudsters call seniors",
+    "pretext": "pretending to be a family member in distress, the police or a justice official claiming that a loved one or grandchild is in trouble",
+    "payment": "demanding immediate payment for bail, or fines to avoid going to jail; request cash and send couriers for pick up, or demand the victim send cash by courier services or via cryptocurrency"
+  },
+  "red_flags": [
+    "calls demanding immediate payment for bail or fines",
+    "told there's a gag order and can't speak to anyone",
+    "calls that require immediate action",
+    "request for cash with courier pick up",
+    "demand to send cash or cryptocurrencies to unknown persons"
+  ],
+  "key_quote": "Victims are told there's a gag order and can't speak to anyone.",
+  "id": "features-vedette-2023-02-grandparent-scam-arnaque-grands-parents-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2023/02/grandparent-scam-arnaque-grands-parents-eng.htm",
+  "title": "Emergency-grandparent scam",
+  "date": "2023-02-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

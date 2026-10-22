@@ -1,0 +1,45 @@
+{
+  "typologies": [
+    "phishing_takeover",
+    "identity_fraud"
+  ],
+  "contact_channels": [
+    "phone call to mobile carrier"
+  ],
+  "pretexts": [
+    "fraudster impersonates victim claiming phone lost or stolen",
+    "fraudster requests SIM card swap or phone number port"
+  ],
+  "payment_methods": [],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "individuals"
+  ],
+  "emerging_tactics": [
+    "SIM swapping",
+    "phone number porting",
+    "two-factor authentication bypass",
+    "password reset via verification code"
+  ],
+  "kill_chain_signals": {
+    "contact": "fraudster impersonates victim to mobile carrier claiming phone lost or stolen",
+    "pretext": "fraudster requests phone number be linked to new SIM card they control",
+    "payment": "fraudster empties bank accounts after gaining access",
+    "movement": "fraudster downloads applications and uses 'Forgot Password' to receive verification codes",
+    "cashout": "fraudster empties bank accounts and applies for credit in victim's name"
+  },
+  "red_flags": [
+    "sudden loss of mobile service",
+    "locked out of all accounts",
+    "unauthorized password reset notifications",
+    "verification codes received without requesting them",
+    "fraudster impersonates you to defraud contact list"
+  ],
+  "key_quote": "Your phone number will be linked to a new SIM and device that the fraudster controls.",
+  "id": "scams-fraudes-sim-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/sim-eng.htm",
+  "title": "Sim card swap",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

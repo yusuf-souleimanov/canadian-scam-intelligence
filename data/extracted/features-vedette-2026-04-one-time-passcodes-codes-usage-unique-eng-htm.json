@@ -1,0 +1,46 @@
+{
+  "typologies": [
+    "phishing_takeover"
+  ],
+  "contact_channels": [
+    "phone call",
+    "text message",
+    "email",
+    "social media message"
+  ],
+  "pretexts": [
+    "impersonating a trusted organization or service provider",
+    "impersonating someone the victim knows",
+    "claiming a code was sent by mistake and asking victim to forward it",
+    "urgent requests from contacts that seem unusual"
+  ],
+  "payment_methods": [],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [],
+  "emerging_tactics": [
+    "one-time passcode theft",
+    "account takeover via OTP interception",
+    "impersonation to request verification codes"
+  ],
+  "kill_chain_signals": {
+    "contact": "The perpetrator will then contact you often impersonating a trusted organization, service provider, or even someone you know",
+    "pretext": "request that you share the code",
+    "payment": "",
+    "movement": "Once the OTP is shared, fraudsters can take control of your account, lock you out",
+    "cashout": "use your identity to target your contacts or commit further fraud"
+  },
+  "red_flags": [
+    "You receive a one-time passcode you did not request",
+    "Someone asks you to share a verification code sent to your phone or email",
+    "Messages claiming a code was sent by mistake and asking you to forward it",
+    "Urgent requests from contacts that seem unusual or out of character",
+    "Being locked out of your account unexpectedly"
+  ],
+  "key_quote": "Once the OTP is shared, fraudsters can take control of your account, lock you out, and use your identity to target your contacts.",
+  "id": "features-vedette-2026-04-one-time-passcodes-codes-usage-unique-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/04/one-time-passcodes-codes-usage-unique-eng.htm",
+  "title": "Securing your online accounts – protect your one-time passcodes",
+  "date": "2026-04-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

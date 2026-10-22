@@ -1,0 +1,47 @@
+{
+  "typologies": [
+    "advance_fee"
+  ],
+  "contact_channels": [
+    "email",
+    "mail",
+    "phone call",
+    "social media",
+    "website pop-ups"
+  ],
+  "pretexts": [
+    "you've won a prize or lottery",
+    "you have a chance at winning a prize",
+    "winner of a foreign lottery",
+    "caller claims to represent Reader's Digest or Publisher's Clearing House",
+    "won a car or cash prize"
+  ],
+  "payment_methods": [
+    "money service business such as Western Union or Money Gram",
+    "prepaid gift cards"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "seniors"
+  ],
+  "emerging_tactics": [],
+  "kill_chain_signals": {
+    "contact": "Fraudsters contact you through email, mail, telephone, social media, or website pop-ups",
+    "pretext": "tell you that you've won, or have a chance at winning, a prize or lottery",
+    "payment": "you must pay an advance fee or buy something; request payment through money service business or prepaid gift cards"
+  },
+  "red_flags": [
+    "must pay an advance fee before receiving any winnings",
+    "winner of a foreign lottery but did not travel to purchase tickets",
+    "need to pay a small fee to cover taxes, legal fees, or delivery costs",
+    "no winnings are ever received",
+    "payment requested through money service business or prepaid gift cards"
+  ],
+  "key_quote": "before receiving any winnings, you must pay an advance fee or buy something",
+  "id": "scams-fraudes-prize-prix-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/prize-prix-eng.htm",
+  "title": "Prize",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

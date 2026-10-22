@@ -1,0 +1,49 @@
+{
+  "typologies": [
+    "business_email_compromise"
+  ],
+  "contact_channels": [
+    "phone call",
+    "mail",
+    "email",
+    "text message",
+    "fax"
+  ],
+  "pretexts": [
+    "caller confirms business address and telephone number",
+    "invoice for directory listing or renewal",
+    "fraudster pretends to be usual supplier",
+    "offer of supplies at discounted price",
+    "unsolicited invoice for product or service never requested"
+  ],
+  "payment_methods": [
+    "invoice payment"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "businesses"
+  ],
+  "emerging_tactics": [
+    "assumptive sales tactics",
+    "recording initial conversation to use against victim"
+  ],
+  "kill_chain_signals": {
+    "contact": "fraudster calls a business to confirm details such as the company's address and telephone number",
+    "pretext": "fraudster sends you an invoice asking for payment for a directory listing or renewal; may pretend to be your usual supplier or offer supplies at a discounted price",
+    "payment": "receipt of an unsolicited invoice and demand for payment"
+  },
+  "red_flags": [
+    "unsolicited invoice for product or service never requested",
+    "caller confirms address then sends invoice",
+    "supplies arrive that were not ordered",
+    "inferior quality supplies or inflated prices",
+    "assumptive sales tactics assuming you've said yes"
+  ],
+  "key_quote": "Receipt of an unsolicited invoice and demand for payment, where no product or service was requested.",
+  "id": "scams-fraudes-f-billing-facturation-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/f-billing-facturation-eng.htm",
+  "title": "False billing",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

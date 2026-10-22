@@ -1,0 +1,57 @@
+{
+  "typologies": [
+    "bank_investigator",
+    "service_tech_support",
+    "recovery"
+  ],
+  "contact_channels": [
+    "phone call",
+    "email",
+    "website pop-ups"
+  ],
+  "pretexts": [
+    "fraudster claims to be from bank or credit card provider about unauthorized charges",
+    "fraudster claims to be from Amazon about account compromise",
+    "fraudster claims computer has virus or has been hacked",
+    "fraudster claims to be from Microsoft or computer company",
+    "fraudster claims to be from government agency or law enforcement offering to recover stolen money",
+    "fraudster claims CAFC is investigating and victim must cooperate to catch suspect",
+    "fraudster claims victim must help with sting operation"
+  ],
+  "payment_methods": [
+    "money transfer for reimbursement fees",
+    "bait money",
+    "advance fee payment"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "previous fraud victims"
+  ],
+  "emerging_tactics": [
+    "spoofed caller ID",
+    "remote access to computer",
+    "fraudulent letters with CAFC logo and letterhead",
+    "spoofed police phone numbers"
+  ],
+  "kill_chain_signals": {
+    "contact": "unsolicited telephone calls, alarming website pop-ups, fraudsters send fraudulent letter via email",
+    "pretext": "claim unauthorized charges on account, computer infected with virus, CAFC is investigating and victim must cooperate, promise to get money back from previous fraud",
+    "payment": "demand money for reimbursement fees or as bait money, claim payment is required to assist with investigation",
+    "movement": "fraudsters request remote access to computer, provide fraudulent contact information for victim to communicate with them",
+    "cashout": "promise to return funds but never will"
+  },
+  "red_flags": [
+    "CAFC or police will never ask to transfer money or make a payment",
+    "CAFC or police will never ask for remote access to your computer",
+    "CAFC or police will never ask for personal information or any type of payment",
+    "Fraudsters often provide first 4 to 6 numbers of debit or credit card",
+    "Criminals use call-spoofing to mislead victims"
+  ],
+  "key_quote": "The CAFC or police services will never ask to transfer money or make a payment",
+  "id": "news-nouvelles-2024-2024-07-02-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/news-nouvelles/2024/2024-07-02-eng.htm",
+  "title": "Fraudsters impersonating the Canadian Anti-Fraud Centre",
+  "date": "2024-07-02",
+  "source": "Canadian Anti-Fraud Centre"
+}

@@ -1,0 +1,53 @@
+{
+  "typologies": [
+    "advance_fee"
+  ],
+  "contact_channels": [
+    "internet",
+    "website",
+    "social media"
+  ],
+  "pretexts": [
+    "special access to government funding programs",
+    "free government grant money",
+    "weight loss grant program",
+    "guaranteed loan approval",
+    "recommendation from a friend about government grant"
+  ],
+  "payment_methods": [
+    "upfront fee",
+    "email money transfer",
+    "money service businesses",
+    "pre-paid credit cards"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "businesses"
+  ],
+  "emerging_tactics": [
+    "fake government websites using official logos and wordmarks",
+    "social media account takeover to recommend fake grants",
+    "money laundering through victim's new business bank account"
+  ],
+  "kill_chain_signals": {
+    "contact": "Fraudsters use websites that look like official government sites and ads on internet",
+    "pretext": "Advertise special access to government funding programs, free grant money, or guaranteed loans",
+    "payment": "Site asks you to pay an upfront fee to receive list of grants or complete application",
+    "movement": "Site may ask that you open a new business bank account to receive the money",
+    "cashout": "Fraudsters may use the account to launder money"
+  },
+  "red_flags": [
+    "In most provinces, it is illegal for a company to request an upfront fee before you receive your loan",
+    "Beware of companies that offer guaranteed loans even if you have bad credit or no credit",
+    "Beware of instant approvals",
+    "End all contact if the company requests payment by email money transfer, money service businesses or pre-paid credit cards",
+    "Government grant and loan services are offered free of charge by government departments or agencies"
+  ],
+  "key_quote": "To get the money, you need to pay an upfront fee.",
+  "id": "scams-fraudes-loan-pret-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/loan-pret-eng.htm",
+  "title": "Grant and loan",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

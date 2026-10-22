@@ -1,0 +1,18 @@
+{
+  "typologies": [],
+  "contact_channels": [],
+  "pretexts": [],
+  "payment_methods": [],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [],
+  "emerging_tactics": [],
+  "kill_chain_signals": {},
+  "red_flags": [],
+  "key_quote": "A Distributed Denial-of-Service Attack (DDoS) is a crime in which the perpetrator floods an online server with internet traffic to prevent users from accessing connected services and sites.",
+  "id": "scams-fraudes-ddos-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/ddos-eng.htm",
+  "title": "Distributed Denial of Service attacks",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

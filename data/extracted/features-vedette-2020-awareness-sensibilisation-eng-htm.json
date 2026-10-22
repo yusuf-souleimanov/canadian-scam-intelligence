@@ -1,0 +1,51 @@
+{
+  "typologies": [
+    "job_mule",
+    "advance_fee",
+    "romance"
+  ],
+  "contact_channels": [
+    "phone call",
+    "text message",
+    "online job posting sites",
+    "online dating / social media"
+  ],
+  "pretexts": [
+    "hired as payment processor, financial officer, or administrative assistant",
+    "won lottery or sweepstakes",
+    "romantic partner needs help receiving payments from clients",
+    "romantic partner is investor, engineer, or military personnel"
+  ],
+  "payment_methods": [
+    "email money transfers",
+    "bank wire transfers",
+    "virtual currencies",
+    "money service businesses"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "job seekers"
+  ],
+  "emerging_tactics": [],
+  "kill_chain_signals": {
+    "contact": "Victims approached after posting resume on website; victims meet someone online and begin relationship",
+    "pretext": "Offered position as payment processor or financial officer; told they won lottery; romantic partner claims to be investor or military",
+    "payment": "Asked to accept payments into personal account then transfer via virtual currencies, wire transfers, or email money transfers",
+    "movement": "Victims transfer funds to accounts in different countries or to 'financial office'",
+    "cashout": "Mules keep small percentage of money transferred; remaining funds sent to criminals"
+  },
+  "red_flags": [
+    "Receive funds from unknown person or company and asked to forward it elsewhere",
+    "Messages about winning a prize or lottery that you never entered",
+    "Request to conduct unusual or questionable financial transactions on behalf of third party",
+    "Job duties include accepting payments from clients into personal account and transferring to different country",
+    "Romantic partner provides victim with cell phone and requests victim open bank account and send bank card"
+  ],
+  "key_quote": "Being used as a money mule victimizes you, victimizes others and can get you tied into a money laundering scheme and could result in facing criminal charges.",
+  "id": "features-vedette-2020-awareness-sensibilisation-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2020/awareness-sensibilisation-eng.htm",
+  "title": "Money mule awareness",
+  "date": "2020-01-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

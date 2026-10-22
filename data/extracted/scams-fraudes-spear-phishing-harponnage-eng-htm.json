@@ -1,0 +1,61 @@
+{
+  "typologies": [
+    "business_email_compromise",
+    "phishing_takeover"
+  ],
+  "contact_channels": [
+    "email",
+    "phone call",
+    "text message"
+  ],
+  "pretexts": [
+    "boss working offsite needs gift cards for employee rewards",
+    "family member or friend needs help buying gift cards",
+    "urgent wire transfer request from executive",
+    "existing client requests urgent wire transfer",
+    "head office reports problems with financial products",
+    "employee requests change to direct deposit information",
+    "supplier or contractor notifies of banking information change",
+    "landlord requests rent payment through different method due to bank account issue"
+  ],
+  "payment_methods": [
+    "gift cards",
+    "wire transfer",
+    "Interac e-Transfer",
+    "money transfer services"
+  ],
+  "mentions_interac": true,
+  "interac_context": "Fraudsters spoofing landlords ask tenants to send rent payment through e-transfer instead of usual arrangement, claiming bank account problems.",
+  "target_groups": [
+    "businesses",
+    "individuals",
+    "financial institutions",
+    "franchise businesses",
+    "tenants"
+  ],
+  "emerging_tactics": [
+    "email spoofing",
+    "compromised email accounts",
+    "caller ID spoofing"
+  ],
+  "kill_chain_signals": {
+    "contact": "fraudster sends email or calls that appears to come from legitimate source using spoofing",
+    "pretext": "claims to be boss, client, head office, employee, supplier, or landlord with urgent request or change in payment details",
+    "payment": "directs victim to purchase gift cards, send wire transfer, conduct money transfers, or change direct deposit/rent payment method",
+    "movement": "payments directed to fraudulent accounts or gift card codes provided to fraudster",
+    "cashout": "wire transfers sent to foreign accounts"
+  },
+  "red_flags": [
+    "unusual requests that claim to be from someone you work with",
+    "urgent requests for gift cards or wire transfers",
+    "requests to change payment details or banking information",
+    "emails with spelling and grammar errors",
+    "requests for payment method different from usual arrangement"
+  ],
+  "key_quote": "These frauds leverage existing relationships between the person receiving the email and the person sending it.",
+  "id": "scams-fraudes-spear-phishing-harponnage-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/spear-phishing-harponnage-eng.htm",
+  "title": "Spear phishing",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

@@ -1,0 +1,63 @@
+{
+  "typologies": [
+    "merchandise_marketplace",
+    "vendor_overpayment",
+    "phishing_takeover",
+    "service_tech_support"
+  ],
+  "contact_channels": [
+    "social media",
+    "classified websites",
+    "paid social media ads",
+    "email",
+    "text message"
+  ],
+  "pretexts": [
+    "concert or event tickets for high-demand sold-out events",
+    "rental properties in ideal locations at low prices",
+    "drastic discounts and 'Today Only!' sales",
+    "buyer offers to pay above asking price to cover shipping",
+    "buyer requests VIN report for vehicle history",
+    "buyer claims to send e-Transfer but sends payment request instead",
+    "compromised friend's social media account",
+    "fake payment notifications",
+    "payment problem with PayPal account"
+  ],
+  "payment_methods": [
+    "Interac e-Transfer",
+    "credit card",
+    "wire transfer",
+    "counterfeit cheques",
+    "compromised credit cards"
+  ],
+  "mentions_interac": true,
+  "interac_context": "Fraudsters claim to send an e-Transfer to pay for an item, but actually send a request for funds from the victim's account or a phishing message asking for banking credentials.",
+  "target_groups": [],
+  "emerging_tactics": [
+    "QR codes asking to confirm banking information",
+    "fake payment notifications",
+    "compromised social media accounts to impersonate friends",
+    "phishing links for VIN reports that steal credit card information",
+    "e-Transfer payment requests disguised as payments"
+  ],
+  "kill_chain_signals": {
+    "contact": "Fraudsters contact via social media, classified websites, or impersonate compromised friends; post fake ads on social media and paid ads",
+    "pretext": "Urgent payment for high-demand tickets, low-price rentals, drastic discounts, overpayment offers, VIN report requests, fake e-Transfer claims",
+    "payment": "Request immediate payment via e-Transfer, credit card for fake VIN reports, fake payment notifications asking for tracking numbers, counterfeit cheques",
+    "movement": "Seller asked to ship product and provide tracking number before payment is released; funds transferred for shipping fees",
+    "cashout": "Credit card information used for fraudulent purchases or transactions; seller loses product and receives no payment"
+  },
+  "red_flags": [
+    "Blowout sales or greatly reduced prices (e.g. 80%)",
+    "Buyers who want to buy without seeing the product first",
+    "Overpayments for items you are selling",
+    "Requests asking for money to cover shipping fees",
+    "QR codes asking to confirm your banking information"
+  ],
+  "key_quote": "Fraudsters will claim that they are sending an e-transfer to pay for the item, but in reality, it's a request for funds from your account.",
+  "id": "features-vedette-2024-10-protecting-yourself-protegez-vous-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2024/10/protecting-yourself-protegez-vous-eng.htm",
+  "title": "Protecting yourself online",
+  "date": "2024-10-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

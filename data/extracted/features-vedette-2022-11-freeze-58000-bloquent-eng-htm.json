@@ -1,0 +1,43 @@
+{
+  "typologies": [
+    "business_email_compromise"
+  ],
+  "contact_channels": [
+    "email"
+  ],
+  "pretexts": [
+    "fraudsters infiltrate or spoof business or individual email accounts",
+    "convincing emails seemingly from a trusted source"
+  ],
+  "payment_methods": [
+    "wire transfer"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "businesses"
+  ],
+  "emerging_tactics": [
+    "spear phishing",
+    "email spoofing",
+    "email forwarding rules to monitor correspondence"
+  ],
+  "kill_chain_signals": {
+    "contact": "fraudsters send convincing emails seemingly from a trusted source",
+    "pretext": "fraudsters infiltrate or spoof a business or individual email account and create a rule to send copies of incoming emails forwarded to one of their own accounts",
+    "payment": "business reported they were a victim resulting in a $58,000 fraudulent transfer",
+    "movement": "the CAFC and United States Secret Service along with a financial institution were able to freeze a $58,000 fraudulent transfer"
+  },
+  "red_flags": [
+    "unsolicited emails",
+    "suspicious links or attachments",
+    "unusual payment requests",
+    "email address or link that doesn't match expected sender"
+  ],
+  "key_quote": "Spear phishing is one of the most common and most dangerous attack methods currently used to conduct fraud, usually on businesses and organizations.",
+  "id": "features-vedette-2022-11-freeze-58000-bloquent-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2022/11/freeze-58000-bloquent-eng.htm",
+  "title": "Success story: The CAFC and United States Secret Service freeze $58,000",
+  "date": "2022-11-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

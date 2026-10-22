@@ -1,0 +1,72 @@
+{
+  "typologies": [
+    "merchandise_marketplace",
+    "vendor_overpayment",
+    "phishing_takeover",
+    "investment_crypto",
+    "romance",
+    "recovery",
+    "advance_fee",
+    "charity_other",
+    "identity_fraud"
+  ],
+  "contact_channels": [
+    "online marketplace listings",
+    "text message",
+    "email",
+    "phone call",
+    "social media",
+    "fraudulent websites"
+  ],
+  "pretexts": [
+    "brand name goods at too-good-to-be-true prices",
+    "buyer offers more than asking price for item",
+    "incomplete shipping information requires payment",
+    "delivery failure or package held for payment",
+    "cellphone provider offering new phone and discounted plan",
+    "crypto investment opportunity with guaranteed profits",
+    "online romance interest needs money",
+    "law enforcement or recovery specialist can recover previous fraud losses",
+    "charity solicitation",
+    "prize or vacation winner must pay fees to claim",
+    "unpaid toll fees or speeding infractions"
+  ],
+  "payment_methods": [
+    "gift cards",
+    "wire transfer",
+    "payment to fabricated shipping company"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "online shoppers",
+    "sellers on marketplaces",
+    "travelers"
+  ],
+  "emerging_tactics": [
+    "wrong number text message to initiate investment scam",
+    "remote access to victim device to set up investment accounts",
+    "phishing text messages impersonating toll agencies",
+    "gift card tampering in-store"
+  ],
+  "kill_chain_signals": {
+    "contact": "fraudsters send unsolicited text messages or emails impersonating shipping companies, call claiming to be service providers, reach out through random wrong number text messages, send fake text messages about toll fees",
+    "pretext": "urgent requests for personal or payment information due to incomplete shipping, offering new cellphone and discounted plan, promoting crypto investment opportunities with guaranteed profits, online romance followed by requests for money, claiming ability to recover previous fraud losses, soliciting charity donations, notifying of prize or vacation winnings",
+    "payment": "request payment to fabricated shipping company, collect personal information for credit checks and order phone in victim's name, assist in setting up investment accounts with small initial investment, countless requests for money from romance interest, collecting money through reindeer games from recovery offers, requesting gift cards as payments under pressure, requiring fees to claim prize winnings",
+    "movement": "phone may be shipped directly to fraudsters or victim receives wrong phone and is requested to ship it forward",
+    "cashout": "fraudsters use victim's information and money for shopping spree"
+  },
+  "red_flags": [
+    "too good to be true prices on brand name offers",
+    "buyer wants to pay more than asking price or requests become overcomplicated",
+    "unsolicited messages urgently requesting personal or payment information",
+    "legitimate businesses will not request gift cards as payments, especially under pressure",
+    "if you didn't enter a contest or raffle, you can't win"
+  ],
+  "key_quote": "Legitimate businesses and organizations will not request gift cards as payments; especially under pressure.",
+  "id": "features-vedette-2021-11-holiday-fetes-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2021/11/holiday-fetes-eng.htm",
+  "title": "The 12 frauds of the holidays",
+  "date": "2021-11-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

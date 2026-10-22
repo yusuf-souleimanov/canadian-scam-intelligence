@@ -1,0 +1,48 @@
+{
+  "typologies": [
+    "emergency_grandparent",
+    "job_mule"
+  ],
+  "contact_channels": [
+    "phone call",
+    "text message",
+    "social media"
+  ],
+  "pretexts": [
+    "caller claims to be grandchild needing money immediately",
+    "caller claims grandchild needs bail money",
+    "caller claims to be law enforcement official requesting fine or bail payment",
+    "caller claims grandchild needs money for lawyer fees, hospital fees, or ambulance fees",
+    "family member in emergency situation or distress"
+  ],
+  "payment_methods": [
+    "cash courier"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "seniors"
+  ],
+  "emerging_tactics": [
+    "spoofed caller ID"
+  ],
+  "kill_chain_signals": {
+    "contact": "senior gets a phone call, typically on their home phone/landline, from a caller claiming to be their grandchild",
+    "pretext": "scammers claim to be someone they know, such as a grandchild, and tell them they need money immediately to avoid going to jail or to be released from jail",
+    "payment": "more than 70 money mules picking up money at victim residences in every province",
+    "movement": "CAFC successfully flagged numerous fraudulent bank accounts used to facilitate some of the occurrences"
+  },
+  "red_flags": [
+    "telephone calls that require you to immediately take action and request bail money for a family member in distress",
+    "caller ID numbers that look familiar but may be spoofed",
+    "law enforcement official asking you to pay a fine or bail",
+    "email or text message claiming to be from a friend or loved one asking for money",
+    "inner voice screaming 'This doesn't sound right'"
+  ],
+  "key_quote": "Scammers claim to be someone they know, such as a grandchild, and tell them they need money immediately.",
+  "id": "news-nouvelles-2024-2024-04-18-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/news-nouvelles/2024/2024-04-18-eng.htm",
+  "title": "Canadian Anti-Fraud Centre supports OPP in major grandparent fraud investigation",
+  "date": "2024-04-18",
+  "source": "Canadian Anti-Fraud Centre"
+}

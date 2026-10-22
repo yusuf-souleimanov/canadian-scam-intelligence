@@ -1,0 +1,48 @@
+{
+  "typologies": [
+    "charity_other"
+  ],
+  "contact_channels": [
+    "email",
+    "text message",
+    "internet",
+    "phone call",
+    "fax"
+  ],
+  "pretexts": [
+    "solicitation for donation to charity, association, federation or religious cause",
+    "charity frauds related to the situation in Ukraine",
+    "disaster relief campaigns",
+    "crowdfunding ads"
+  ],
+  "payment_methods": [
+    "cryptocurrency"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "individuals"
+  ],
+  "emerging_tactics": [
+    "false and deceptive crowdfunding ads",
+    "exploiting current events (Ukraine situation)"
+  ],
+  "kill_chain_signals": {
+    "contact": "fraudster contacts you via email, text, internet, phone or fax",
+    "pretext": "fraudster asks for donation to charity, association, federation or religious cause using high-pressure tactics",
+    "payment": "fraudster may request cryptocurrency; registered charities don't accept cryptocurrency as payment method"
+  },
+  "red_flags": [
+    "high-pressure requests for donations to donate immediately",
+    "registered charities don't accept cryptocurrency as a payment method",
+    "charity may not exist or fraudster may not actually be associated with it",
+    "false and deceptive crowdfunding ads",
+    "solicitor cannot provide registered charitable tax number"
+  ],
+  "key_quote": "The fraudster uses high-pressure tactics to get you to donate immediately.",
+  "id": "scams-fraudes-charity-donation-charite-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/charity-donation-charite-eng.htm",
+  "title": "Charity and donation",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

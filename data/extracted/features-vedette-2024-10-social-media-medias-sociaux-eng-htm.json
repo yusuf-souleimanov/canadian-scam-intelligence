@@ -1,0 +1,60 @@
+{
+  "typologies": [
+    "phishing_takeover",
+    "merchandise_marketplace",
+    "emergency_grandparent",
+    "investment_crypto",
+    "romance",
+    "extortion"
+  ],
+  "contact_channels": [
+    "social media",
+    "Facebook",
+    "online dating sites",
+    "text messages",
+    "pornographic websites",
+    "dating websites"
+  ],
+  "pretexts": [
+    "friend offers concert tickets",
+    "family member lost their phone",
+    "immigration offers promoted by Canadian MPs",
+    "celebrity endorsed investment using deepfake videos",
+    "successful cryptocurrency investor seeking relationship",
+    "romantic interest requests sexual acts on camera then blackmails victim"
+  ],
+  "payment_methods": [
+    "cryptocurrency",
+    "crypto"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [],
+  "emerging_tactics": [
+    "deepfake videos",
+    "compromised social media accounts",
+    "QR codes containing viruses",
+    "remote access apps (Anydesk, Teamviewer)",
+    "moving communication to private platforms (WhatsApp, Signal, Discord)"
+  ],
+  "kill_chain_signals": {
+    "contact": "fraudsters contact via online dating sites, social media platforms, text messages, or compromise existing friend/family accounts on Facebook",
+    "pretext": "perpetrators claim to be successful cryptocurrency investors, create fake celebrity endorsements with deepfakes, or pose as friends/family in distress",
+    "payment": "victims persuaded to invest in cryptocurrency with promise of high returns, open and fund new crypto accounts, or pay extortion demands",
+    "movement": "fraudsters direct victims to transfer crypto investment to alternate crypto addresses they control",
+    "cashout": "once cryptocurrency transaction is completed, it is unlikely to be reversed"
+  },
+  "red_flags": [
+    "Someone you haven't met in person professes their love to you",
+    "A suspect that tries to move communication to a more private or different method of communication (Whatsapp, Signal or Discord, etc.)",
+    "Any attempts to meet in person get cancelled or there's always an excuse to not meet up",
+    "Investment opportunities with higher than normal returns",
+    "Requests for remote access to your device in order to teach you how to invest"
+  ],
+  "key_quote": "Fraudsters are increasingly compromising profiles on social platforms like Facebook.",
+  "id": "features-vedette-2024-10-social-media-medias-sociaux-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2024/10/social-media-medias-sociaux-eng.htm",
+  "title": "Social media fraud",
+  "date": "2024-10-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

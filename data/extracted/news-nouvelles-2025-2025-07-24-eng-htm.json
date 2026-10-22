@@ -1,0 +1,42 @@
+{
+  "typologies": [
+    "business_email_compromise"
+  ],
+  "contact_channels": [
+    "email"
+  ],
+  "pretexts": [
+    "fraudsters impersonate trusted contacts, executives, legal advisors, or vendors"
+  ],
+  "payment_methods": [
+    "wire transfer"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "businesses"
+  ],
+  "emerging_tactics": [
+    "spear phishing"
+  ],
+  "kill_chain_signals": {
+    "contact": "spear phishing attack",
+    "pretext": "fraudsters impersonate trusted contacts; often executives, legal advisors, or vendors",
+    "payment": "tricked the Canadian firm into wiring funds to a fraudulent account in Hong Kong",
+    "movement": "wiring funds to a fraudulent account in Hong Kong",
+    "cashout": "a local bank in Hong Kong promptly alerted the ADCC"
+  },
+  "red_flags": [
+    "change in banking details",
+    "downloading attachments",
+    "clicking on unexpected links",
+    "unsolicited emails or texts",
+    "payment requests without verification"
+  ],
+  "key_quote": "Spear phishing and BEC scams are highly targeted attacks where fraudsters impersonate trusted contacts to trick individuals or companies into transferring funds.",
+  "id": "news-nouvelles-2025-2025-07-24-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/news-nouvelles/2025/2025-07-24-eng.htm",
+  "title": "International collaboration successfully intercepts and returns $2.3 million\n\t\t\tfraudulent transfer",
+  "date": "2025-07-24",
+  "source": "Canadian Anti-Fraud Centre"
+}

@@ -1,0 +1,46 @@
+{
+  "typologies": [
+    "identity_fraud",
+    "phishing_takeover"
+  ],
+  "contact_channels": [
+    "email",
+    "text message",
+    "social media message",
+    "phone call",
+    "unsolicited links",
+    "online forms"
+  ],
+  "pretexts": [
+    "unexpected request to provide or confirm personal or financial information",
+    "request for copy or photo of government-issued identification",
+    "unsolicited message directs to website or form asking for personal information",
+    "uses personal details about victim, workplace or family to gain trust"
+  ],
+  "payment_methods": [],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [],
+  "emerging_tactics": [
+    "combining information from multiple sources to build victim profile",
+    "using publicly available social media information",
+    "exploiting data breaches"
+  ],
+  "kill_chain_signals": {
+    "contact": "unsolicited email, text message or social media message directs you to a website or form",
+    "pretext": "someone uses personal details about you, your workplace or your family to gain your trust or make their story more convincing"
+  },
+  "red_flags": [
+    "unexpected request to provide or confirm personal or financial information",
+    "someone asks you to provide a copy or photo of government-issued identification without a clear reason",
+    "unsolicited email, text message or social media message directs you to a website or form asking for personal information",
+    "you are pressured to provide personal or financial information immediately",
+    "you receive bills, statements or correspondence for accounts or services you don't recognize"
+  ],
+  "key_quote": "A fraudster does not always need one highly sensitive piece of information.",
+  "id": "features-vedette-2026-10-protecting-personal-info-personnels-proteger-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/10/protecting-personal-info-personnels-proteger-eng.htm",
+  "title": "Protecting your personal information",
+  "date": "2026-10-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

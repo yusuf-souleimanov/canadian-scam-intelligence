@@ -1,0 +1,41 @@
+{
+  "typologies": [
+    "charity_other"
+  ],
+  "contact_channels": [
+    "websites selling novelty bank notes",
+    "in person"
+  ],
+  "pretexts": [
+    "websites selling novelty Canadian bank notes",
+    "notes labeled as prop money or for motion picture use"
+  ],
+  "payment_methods": [],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "individuals",
+    "businesses"
+  ],
+  "emerging_tactics": [
+    "fraudsters create terms and conditions on websites to evade counterfeit currency laws"
+  ],
+  "kill_chain_signals": {
+    "contact": "websites selling novelty Canadian bank notes",
+    "pretext": "novelty bank notes are considered counterfeit in Canada",
+    "payment": "counterfeit notes used in person transactions"
+  },
+  "red_flags": [
+    "notes lack security features built into real Canadian money",
+    "notes feel different or have poor print quality",
+    "missing elements like transparent windows, holograms or raised ink",
+    "notes assembled from multiple pieces",
+    "extra text like 'Prop Money' or 'For Motion Picture Use'"
+  ],
+  "key_quote": "Novelty bank notes are considered counterfeit in Canada.",
+  "id": "scams-fraudes-counterfeit-bank-notes-billets-banque-contrefaits-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/counterfeit-bank-notes-billets-banque-contrefaits-eng.htm",
+  "title": "Counterfeit bank notes",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

@@ -1,0 +1,51 @@
+{
+  "typologies": [
+    "extortion"
+  ],
+  "contact_channels": [
+    "phone call",
+    "message"
+  ],
+  "pretexts": [
+    "caller claims to be law enforcement from China or Hong Kong",
+    "victim falsely accused of being involved in criminal activity",
+    "caller claims to represent Public Safety Bureau or international public safety authorities",
+    "fraudsters pose as anti-corruption officials",
+    "victim told they face arrest, deportation or legal consequences"
+  ],
+  "payment_methods": [
+    "transfer funds",
+    "convert money into gold",
+    "surrender high-value assets",
+    "withdraw funds"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "Asian community",
+    "students",
+    "individuals with ties to mainland China or Hong Kong"
+  ],
+  "emerging_tactics": [
+    "caller provides personal information about victim to appear credible"
+  ],
+  "kill_chain_signals": {
+    "contact": "victims are contacted by phone",
+    "pretext": "falsely accused of being involved in criminal activity and told to cooperate with a supposed investigation",
+    "payment": "instructed to travel or transfer funds, convert money into gold or other high-value assets",
+    "movement": "directed to surrender assets to individuals posing as officers of the law such as anti-corruption officials"
+  },
+  "red_flags": [
+    "You receive an unsolicited call or message from someone claiming to be law enforcement and the caller accuses you of being involved in a crime or criminal investigation",
+    "You are told to keep the situation secret from family or friends",
+    "You are pressured to act quickly or face arrest, deportation or legal consequences",
+    "You are instructed to travel, withdraw funds, or convert money into gold",
+    "The caller provides personal information about you to appear credible"
+  ],
+  "key_quote": "Fraudsters claim to represent agencies such as the Public Safety Bureau (PSB) or other international public safety authorities.",
+  "id": "features-vedette-2026-05-extortion-targeting-asian-communities-extorsion-visant-communaut-s-asiatiques-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/05/extortion-targeting-asian-communities-extorsion-visant-communautés-asiatiques-eng.htm",
+  "title": "Extortion targeting Asian communities – law enforcement impersonation",
+  "date": "2026-05-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

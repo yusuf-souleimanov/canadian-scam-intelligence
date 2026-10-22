@@ -1,0 +1,54 @@
+{
+  "typologies": [
+    "extortion"
+  ],
+  "contact_channels": [
+    "email",
+    "text message",
+    "malicious website",
+    "infected USB drive",
+    "malicious application download"
+  ],
+  "pretexts": [
+    "phishing email with malicious attachment or link",
+    "malicious application or software download",
+    "infected external device"
+  ],
+  "payment_methods": [
+    "ransom payment"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "businesses",
+    "individuals"
+  ],
+  "emerging_tactics": [
+    "crypto ransomware encrypting files",
+    "locker ransomware locking devices",
+    "public release of stolen data as threat",
+    "DDoS attack threats",
+    "harassing customers/clients/employees",
+    "dormant malware remaining inactive for days or months"
+  ],
+  "kill_chain_signals": {
+    "contact": "email phishing campaign with attachment or link",
+    "pretext": "email contains executable file, archive, image or link that releases malware",
+    "payment": "cybercriminals demand ransom payment to decrypt data or regain access",
+    "movement": "malware can remain dormant for many days or months before files or systems are encrypted or locked",
+    "cashout": "ransom payment made to decrypt files or regain access"
+  },
+  "red_flags": [
+    "unsolicited email",
+    "suspicious emails with links or attachments",
+    "unsafe, suspicious or compromised websites",
+    "unknown external devices (USB drives)",
+    "unsafe or suspicious application or software downloads"
+  ],
+  "key_quote": "Cybercriminals demand the payment of ransom in order for victims to be able to decrypt their data or regain access to their networks.",
+  "id": "scams-fraudes-ransomware-rancongiciel-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/ransomware-rancongiciel-eng.htm",
+  "title": "Ransomware",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

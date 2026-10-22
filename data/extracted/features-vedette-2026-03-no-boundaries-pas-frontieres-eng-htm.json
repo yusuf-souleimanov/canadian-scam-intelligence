@@ -1,0 +1,48 @@
+{
+  "typologies": [
+    "investment_crypto",
+    "romance",
+    "phishing_takeover",
+    "business_email_compromise"
+  ],
+  "contact_channels": [
+    "phone call",
+    "text message",
+    "email",
+    "online messages"
+  ],
+  "pretexts": [
+    "pretend to be trusted organizations",
+    "pretend to be businesses",
+    "pretend to be government agencies",
+    "pretend to be romantic partners"
+  ],
+  "payment_methods": [
+    "cryptocurrency",
+    "gift cards",
+    "money transfer"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [],
+  "emerging_tactics": [],
+  "kill_chain_signals": {
+    "contact": "unexpected calls, texts, emails, or online messages",
+    "pretext": "fraudsters often pretend to be trusted organizations, businesses, government agencies, or romantic partners",
+    "payment": "send money, cryptocurrency, gift cards, or personal information",
+    "movement": "victim payments going to 3,019 unique bank accounts in 46 different countries",
+    "cashout": "authorities shut down fraud operations, arrested offenders, disrupted money mule networks, and seized criminal proceeds"
+  },
+  "red_flags": [
+    "Be cautious of unexpected calls, texts, emails, or online messages, even if they seem professional or urgent",
+    "Never send money, cryptocurrency, gift cards, or personal information to someone you have not verified",
+    "Requests for secrecy or pressure to act quickly are common warning signs of fraud",
+    "If an offer sounds too good to be true, it usually is"
+  ],
+  "key_quote": "Fraudsters are masters of deception, blending into their environment like wolves in sheep's clothing.",
+  "id": "features-vedette-2026-03-no-boundaries-pas-frontieres-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/03/no-boundaries-pas-frontieres-eng.htm",
+  "title": "Fraud knows no boundaries",
+  "date": "2026-03-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

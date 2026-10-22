@@ -1,0 +1,53 @@
+{
+  "typologies": [
+    "bank_investigator",
+    "recovery"
+  ],
+  "contact_channels": [
+    "phone call",
+    "email",
+    "social media"
+  ],
+  "pretexts": [
+    "caller claims to be from CAFC or working with CAFC",
+    "fraud investigator from bank or credit card provider",
+    "unauthorized transactions on account",
+    "banking information compromised",
+    "can recover funds from previous fraud",
+    "represent law enforcement or government agency",
+    "located victim's money or conducting investigation"
+  ],
+  "payment_methods": [
+    "transfer to safe account",
+    "send money to assist investigation",
+    "wire transfer",
+    "cryptocurrency"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "previous fraud victims"
+  ],
+  "emerging_tactics": [
+    "fake documents using CAFC logo",
+    "fraudulent contact information provided"
+  ],
+  "kill_chain_signals": {
+    "contact": "Fraudsters may contact victims by phone, email or social media claiming to be from the CAFC",
+    "pretext": "They may claim they are working with the CAFC and tell you there are unauthorized transactions on your account",
+    "payment": "They may ask you to transfer money to a safe account, send money to assist with an investigation, or pay administrative fees, taxes or legal costs"
+  },
+  "red_flags": [
+    "asked to transfer money or make a payment",
+    "asked for remote access to computer or device",
+    "asked for banking information, passwords or verification codes",
+    "asked to keep investigation confidential",
+    "asked to pay money to recover money already lost"
+  ],
+  "key_quote": "The CAFC and police will never ask you to transfer money or make a payment.",
+  "id": "features-vedette-2026-07-impersonation-arnaqueurs-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/07/impersonation-arnaqueurs-eng.htm",
+  "title": "Canadian Anti-Fraud Centre Impersonation",
+  "date": "2026-07-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

@@ -1,0 +1,65 @@
+{
+  "typologies": [
+    "investment_crypto",
+    "romance",
+    "recovery",
+    "advance_fee"
+  ],
+  "contact_channels": [
+    "telephone",
+    "email",
+    "social media",
+    "text message",
+    "dating apps",
+    "search engine optimization"
+  ],
+  "pretexts": [
+    "unsolicited investment opportunities promising higher-than-normal returns",
+    "fraudster claims they can return funds lost in previous investment fraud",
+    "fraudster develops romantic relationship then claims to be successful cryptocurrency investor",
+    "fake fixed income opportunities spoofing legitimate company names",
+    "promotion of incredible deal on low-priced stock",
+    "fake Initial Coin Offerings with official looking documentation",
+    "business or franchise opportunities including ATM machines and point of sale machines",
+    "high-pressure sales of gems as sound financial investment",
+    "gifting circle requiring recruitment of other investors"
+  ],
+  "payment_methods": [
+    "cryptocurrency",
+    "wire transfer",
+    "transfer to crypto address"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "previous investment fraud victims",
+    "individuals"
+  ],
+  "emerging_tactics": [
+    "fake online trading platforms",
+    "search engine optimization to target victims",
+    "remote access requests to victim's computer or device",
+    "allowing small withdrawals to persuade larger investments",
+    "spoofing legitimate company names"
+  ],
+  "kill_chain_signals": {
+    "contact": "fraudsters contact previous investment fraud victims by telephone, email, social media or victims find them through search engine optimization; victims contacted on dating apps or social media",
+    "pretext": "fraudsters claim they can return funds lost in previous investment fraud; fraudster develops relationship and claims to be successful cryptocurrency investor who can help victim get rich",
+    "payment": "fraudsters tell victims there is a fee for their services; victims instructed to purchase cryptocurrency from legitimate exchange and transfer it to crypto address controlled by fraudster; requests for wire transfer to offshore bank account",
+    "movement": "victims transfer funds or cryptocurrency into fake trading account; cryptocurrency transferred to address controlled by fraudster",
+    "cashout": "victims realize fraud when they try to withdraw their funds and are unable to; fraudster sells shares at peak in pump and dump leaving investors with worthless stocks"
+  },
+  "red_flags": [
+    "Unsolicited investment opportunities (even from friends and family)",
+    "Higher-than-normal returns",
+    "Fake cryptocurrency websites",
+    "High pressure tactics",
+    "Requests for cryptocurrency payments"
+  ],
+  "key_quote": "Fraudsters will do everything it takes to make you think the investment is legitimate and lucrative.",
+  "id": "scams-fraudes-investment-investissement-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/investment-investissement-eng.htm",
+  "title": "Investment",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

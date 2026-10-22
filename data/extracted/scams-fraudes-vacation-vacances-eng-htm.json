@@ -1,0 +1,42 @@
+{
+  "typologies": [
+    "advance_fee"
+  ],
+  "contact_channels": [
+    "phone call",
+    "fax"
+  ],
+  "pretexts": [
+    "automated call claiming victim won a free or discounted vacation",
+    "impersonation of well-known airlines (WestJet, Air Canada, Transat)"
+  ],
+  "payment_methods": [
+    "deposit"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "individuals"
+  ],
+  "emerging_tactics": [
+    "automated calls"
+  ],
+  "kill_chain_signals": {
+    "contact": "Fraudsters use an automated call",
+    "pretext": "share that you've won a free or discounted vacation using well-known company names",
+    "payment": "ask for personal information and a deposit as a guarantee"
+  },
+  "red_flags": [
+    "unsolicited automated call about winning a vacation",
+    "request for deposit as guarantee",
+    "request for personal information to claim prize",
+    "use of well-known company names",
+    "receive low quality trip at higher price or no trip at all"
+  ],
+  "key_quote": "You either receive a trip of low quality at a higher price or no trip at all.",
+  "id": "scams-fraudes-vacation-vacances-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/vacation-vacances-eng.htm",
+  "title": "Vacation",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

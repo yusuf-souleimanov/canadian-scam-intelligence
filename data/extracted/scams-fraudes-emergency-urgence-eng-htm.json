@@ -1,0 +1,56 @@
+{
+  "typologies": [
+    "emergency_grandparent"
+  ],
+  "contact_channels": [
+    "phone call",
+    "email",
+    "text message",
+    "social media message"
+  ],
+  "pretexts": [
+    "grandchild or family member arrested and needs bail money",
+    "family member in car accident",
+    "loved one has trouble returning from foreign country",
+    "family member's phone is broken and needs money for repair or bills",
+    "caller impersonates law enforcement official or lawyer on behalf of family member",
+    "family member needs money for lawyer fees, hospital fees, or ambulance fees"
+  ],
+  "payment_methods": [
+    "cash",
+    "cryptocurrency",
+    "gift cards",
+    "cash courier",
+    "cash in mail"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "seniors"
+  ],
+  "emerging_tactics": [
+    "spoofed caller ID",
+    "broken phone pretext via text or social media",
+    "social media reconnaissance to gather family details"
+  ],
+  "kill_chain_signals": {
+    "contact": "Phone call typically on home phone/landline, or email/text message claiming to be loved one",
+    "pretext": "Claim family member arrested, in accident, or phone broken; use urgency and gag order to prevent verification",
+    "payment": "Request cash, cryptocurrency, or gift cards immediately",
+    "movement": "Arrange to pick up funds in person or ask victim to send cash in mail",
+    "cashout": "Fraudsters collect cash or cryptocurrency directly from victim"
+  },
+  "red_flags": [
+    "Caller uses urgency and threats to convince you to take out money immediately",
+    "Claim there is a gag order preventing you from speaking about the situation",
+    "Caller provides alternate phone number instead of using known contact",
+    "Request for bail payment in cash or cryptocurrency (not allowed in Canadian Criminal Justice System)",
+    "Caller ID may be spoofed to appear as trusted number"
+  ],
+  "key_quote": "Emergency frauds prey on your fear of a loved one being hurt or in trouble.",
+  "id": "scams-fraudes-emergency-urgence-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/emergency-urgence-eng.htm",
+  "title": "Emergency",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

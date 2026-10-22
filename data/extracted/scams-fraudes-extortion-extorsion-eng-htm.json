@@ -1,0 +1,76 @@
+{
+  "typologies": [
+    "extortion"
+  ],
+  "contact_channels": [
+    "email",
+    "text message",
+    "phone call",
+    "mail",
+    "social media",
+    "dating websites",
+    "pornographic websites"
+  ],
+  "pretexts": [
+    "caller claims to be RCMP or law enforcement",
+    "caller claims to be Canada Revenue Agency",
+    "caller claims to be Immigration, Refugees and Citizenship Canada",
+    "caller claims to be hydro company employee",
+    "email claims computer was hacked and explicit video recorded",
+    "email claims to be assassin with bomb threat",
+    "email claims to be hitman hired to kill victim",
+    "email threatens denial of service attack on business website",
+    "caller claims to be high-ranking government official with hostage situation",
+    "caller claims victim has unpaid taxes or compromised SIN",
+    "caller claims to be Beijing police, INTERPOL, or Chinese consulate",
+    "caller claims customs intercepted suspicious package in victim's name",
+    "fraudster creates fake profile to lure victim into sexual acts on camera"
+  ],
+  "payment_methods": [
+    "cryptocurrency",
+    "Bitcoin",
+    "gift cards",
+    "iTunes cards",
+    "Google Play cards",
+    "Steam cards",
+    "money service businesses",
+    "pre-paid cards",
+    "QR codes"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "businesses",
+    "individuals",
+    "Asian community",
+    "crypto investment fraud victims"
+  ],
+  "emerging_tactics": [
+    "QR codes for cryptocurrency payment",
+    "spoofed caller ID using government logos",
+    "malicious email attachments",
+    "fake police websites to steal identity documents",
+    "pre-recorded video livestreamed as if live",
+    "personal information from data breaches used as proof of hack"
+  ],
+  "kill_chain_signals": {
+    "contact": "fraudsters send emails with victim's full name, telephone number, residential address and screenshot from search engines; automated calls to Asian community; fake profiles on social media and dating websites",
+    "pretext": "letter claims victim visited explicit websites; threatens arrest for criminal charges; claims computer hacked and explicit video recorded; claims to be law enforcement, CRA, immigration officials, or hydro company",
+    "payment": "demands payment via Bitcoin, cryptocurrency, gift cards (iTunes, Google Play, Steam), money service businesses, or QR codes; threatens to release video, turn off power, arrest, deport, or carry out violence",
+    "movement": "email provides Bitcoin address to send payment to; some letters use QR code for cryptocurrency payment",
+    "cashout": "payment requested in cryptocurrency and gift cards which are difficult to trace and recover"
+  },
+  "red_flags": [
+    "threats of arrest, deportation, or violence unless immediate payment made",
+    "demands for payment via Bitcoin, cryptocurrency, gift cards, or QR codes",
+    "unsolicited contact claiming to be law enforcement or government agency",
+    "email contains personal information like passwords from previous data breaches",
+    "pressure to act immediately or face consequences"
+  ],
+  "key_quote": "Do not send money under pressure and do not reply to threatening messages.",
+  "id": "scams-fraudes-extortion-extorsion-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/extortion-extorsion-eng.htm",
+  "title": "Extortion",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

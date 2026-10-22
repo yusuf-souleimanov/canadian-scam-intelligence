@@ -1,0 +1,55 @@
+{
+  "typologies": [
+    "bank_investigator",
+    "emergency_grandparent",
+    "investment_crypto",
+    "phishing_takeover",
+    "extortion"
+  ],
+  "contact_channels": [
+    "phone call",
+    "text message",
+    "email",
+    "social media",
+    "website"
+  ],
+  "pretexts": [
+    "bank account has been compromised",
+    "you owe money",
+    "loved one is in trouble",
+    "must act immediately to avoid consequences",
+    "prize, investment or opportunity",
+    "family member or friend contacting from new number"
+  ],
+  "payment_methods": [],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [],
+  "emerging_tactics": [
+    "AI-generated messages",
+    "AI voice cloning",
+    "AI-created images and videos",
+    "deepfakes",
+    "one-time verification code theft",
+    "spoofed caller ID",
+    "social engineering"
+  ],
+  "kill_chain_signals": {
+    "contact": "They may contact you by phone, text message, email, social media or through a website",
+    "pretext": "They may pretend to be a family member, financial institution, government agency, police service, business or another organization you know and trust",
+    "payment": "asking for money or personal information"
+  },
+  "red_flags": [
+    "you are pressured to act immediately or threatened with consequences if you don't",
+    "you are told to keep the situation secret or not speak with family, friends, your financial institution or police",
+    "you receive an unexpected request for money, personal information or financial information",
+    "you are asked to provide passwords, PINs or one-time verification codes",
+    "someone you know suddenly contacts you from a new phone number or account and asks for money"
+  ],
+  "key_quote": "A message, image, video or voice that appears real is not proof that it is real.",
+  "id": "features-vedette-2026-10-spotting-fraud-reperer-fraude-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/10/spotting-fraud-reperer-fraude-eng.htm",
+  "title": "Spotting fraud in a changing digital landscape",
+  "date": "2026-10-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

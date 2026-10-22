@@ -1,0 +1,48 @@
+{
+  "typologies": [
+    "business_email_compromise"
+  ],
+  "contact_channels": [
+    "email"
+  ],
+  "pretexts": [
+    "impersonated legitimate business contacts",
+    "fraudulent payment instructions",
+    "impersonate suppliers, contractors, financial institutions or legal representatives"
+  ],
+  "payment_methods": [
+    "wire transfer"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "businesses",
+    "small and medium enterprises",
+    "construction and contracting industry",
+    "real estate sector"
+  ],
+  "emerging_tactics": [
+    "spear phishing",
+    "email addresses that closely resemble legitimate ones"
+  ],
+  "kill_chain_signals": {
+    "contact": "fraudsters targeted a business involved in a high-value commercial transaction",
+    "pretext": "criminals impersonated legitimate contacts and manipulated email communications to provide fraudulent payment instructions",
+    "payment": "the victim authorized two wire transfers",
+    "movement": "financial institutions detected concerns with the beneficiary account information",
+    "cashout": "recovery and investigative efforts remain ongoing"
+  },
+  "red_flags": [
+    "Requests to change or update banking or payment information",
+    "Pressure to act quickly or bypass normal procedures",
+    "Email addresses that closely resemble legitimate ones",
+    "Unexpected wire transfer instructions",
+    "Requests to send payments to new accounts"
+  ],
+  "key_quote": "criminals impersonated legitimate contacts and manipulated email communications to provide fraudulent payment instructions",
+  "id": "news-nouvelles-2026-2026-05-13-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/news-nouvelles/2026/2026-05-13-eng.htm",
+  "title": "Canadian Anti-Fraud Centre and partners assist in $3.5M recovery linked to sophisticated payment redirection fraud",
+  "date": "2026-05-13",
+  "source": "Canadian Anti-Fraud Centre"
+}

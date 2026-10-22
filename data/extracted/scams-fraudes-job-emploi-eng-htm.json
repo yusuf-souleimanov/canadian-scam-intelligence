@@ -1,0 +1,67 @@
+{
+  "typologies": [
+    "job_mule"
+  ],
+  "contact_channels": [
+    "email",
+    "text message",
+    "WhatsApp",
+    "Messenger",
+    "social media ad",
+    "online classified ads",
+    "job posting websites",
+    "Telegram",
+    "Instagram",
+    "TikTok"
+  ],
+  "pretexts": [
+    "car wrapping job earning $300-$500 per week",
+    "caregiver, administrative assistant, or data entry clerk position",
+    "freelance job to boost products, apps or videos",
+    "financial agent or client manager position",
+    "mystery shopper, quality control officer, or personal assistant",
+    "work-from-home running online stores or completing web surveys",
+    "processing orders or managing inventory for e-commerce platform",
+    "completing paid online surveys"
+  ],
+  "payment_methods": [
+    "crypto accounts or wallets",
+    "Bitcoin",
+    "e-Transfer",
+    "wire transfer",
+    "gift cards",
+    "counterfeit cheque deposit and withdrawal"
+  ],
+  "mentions_interac": true,
+  "interac_context": "In the financial agent scam, victims receive e-transfers or wire transfers into their bank account and are then directed to send money through Bitcoin to a company representative.",
+  "target_groups": [
+    "job seekers"
+  ],
+  "emerging_tactics": [
+    "fraudulent software installation for fake job tasks",
+    "fake online platforms showing false earnings balances",
+    "small initial payouts to build trust",
+    "pyramid selling recruitment schemes",
+    "money mule recruitment through job offers"
+  ],
+  "kill_chain_signals": {
+    "contact": "Fraudsters send unsolicited messages via email, text, WhatsApp, Messenger, or social media after victims post resumes on job recruitment websites",
+    "pretext": "Using names of real companies in Canada, fraudsters offer freelance job opportunities to boost products, complete tasks, wrap cars, or work as mystery shoppers",
+    "payment": "Victims deposit funds into crypto accounts or wallets, pay upgrade fees, or receive and forward counterfeit cheques through their bank accounts",
+    "movement": "Victims are directed to withdraw funds and deposit into specific bank accounts, send Bitcoin to company representatives, or forward e-transfers",
+    "cashout": "Victims see funds in their crypto account but cannot withdraw the funds they deposited and earned; counterfeit cheques bounce leaving victims responsible"
+  },
+  "red_flags": [
+    "A company uses a web-based email instead of an official business domain",
+    "You receive a job offer you did not apply for",
+    "The job requires upfront deposits, upgrade fees, or unlock payments",
+    "You see a balance on the website or app but cannot withdraw it",
+    "You are asked to receive or forward money through your bank account"
+  ],
+  "key_quote": "You will see funds in your crypto account, but you will not have the ability to withdraw the funds you have deposited and earned.",
+  "id": "scams-fraudes-job-emploi-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/job-emploi-eng.htm",
+  "title": "Job",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

@@ -1,0 +1,25 @@
+{
+  "typologies": [],
+  "contact_channels": [],
+  "pretexts": [],
+  "payment_methods": [],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [],
+  "emerging_tactics": [],
+  "kill_chain_signals": {
+    "contact": "communications used by fraudsters",
+    "payment": "payment pathways used by fraudsters",
+    "movement": "bank accounts and cryptocurrency accounts tracked as fraud indicators",
+    "cashout": "cryptocurrency accounts identified as fraud indicators"
+  },
+  "red_flags": [
+    "pause and verify before sending money or personal information"
+  ],
+  "key_quote": "Fraud is complex, organized, and constantly evolving.",
+  "id": "features-vedette-2026-03-tackling-fraud-controns-fraude-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/03/tackling-fraud-controns-fraude-eng.htm",
+  "title": "Tackling fraud together",
+  "date": "2026-03-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

@@ -1,0 +1,51 @@
+{
+  "typologies": [
+    "business_email_compromise",
+    "phishing_takeover"
+  ],
+  "contact_channels": [
+    "email",
+    "social media direct message"
+  ],
+  "pretexts": [
+    "won a free giveaway or contest",
+    "top executive requesting urgent payment to close a private deal",
+    "existing contractor providing new payment directions",
+    "email with attachment or link containing malware"
+  ],
+  "payment_methods": [
+    "credit card",
+    "payment redirection to fraudster account"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "businesses"
+  ],
+  "emerging_tactics": [
+    "social media account spoofing",
+    "spear phishing with email rule creation to monitor incoming emails",
+    "ransomware with dormant malware",
+    "cloned or imposter social media accounts"
+  ],
+  "kill_chain_signals": {
+    "contact": "fraudsters send messages to existing contacts and followers or send convincing emails from a seemingly trusted source",
+    "pretext": "claims that they have won a free giveaway or contest, or top executive sending an email requesting an urgent payment, or existing contractor providing new payment directions",
+    "payment": "potential victims are required to provide their credit card information or payment of an invoice to redirected account",
+    "movement": "fraudsters will infiltrate or spoof a business or individual's email account and create a rule to send copies of incoming emails to one of their own accounts",
+    "cashout": "not explicitly described"
+  },
+  "red_flags": [
+    "unsolicited emails with attachments or links",
+    "urgent payment requests when account owner can't be easily contacted",
+    "changes in payment details or directions",
+    "requests for credit card information to collect contest winnings",
+    "suspicious or compromised websites and infected external devices"
+  ],
+  "key_quote": "Fraudsters launch their attack when the owner of the email account can't be easily contacted by email or by phone.",
+  "id": "scams-fraudes-frauds-business-fraudes-enterprises-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/frauds-business-fraudes-enterprises-eng.htm",
+  "title": "Frauds targeting businesses",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

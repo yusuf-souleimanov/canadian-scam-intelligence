@@ -1,0 +1,54 @@
+{
+  "typologies": [
+    "job_mule",
+    "investment_crypto"
+  ],
+  "contact_channels": [
+    "social media messaging apps",
+    "unsolicited text messages",
+    "social media posts",
+    "sponsored online ads"
+  ],
+  "pretexts": [
+    "job postings with interviews and official-looking documents",
+    "crypto investment platforms offering real-time returns or expert advice",
+    "deepfake videos featuring trusted individuals or public figures",
+    "employers guiding victims through hiring process with contracts and training materials"
+  ],
+  "payment_methods": [
+    "crypto"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [],
+  "emerging_tactics": [
+    "deepfakes",
+    "AI-generated videos",
+    "malicious apps",
+    "fake crypto investment websites and apps",
+    "automated messaging",
+    "encrypted communication tools",
+    "fake investment platforms showing false profits",
+    "professional-looking infrastructure"
+  ],
+  "kill_chain_signals": {
+    "contact": "automated messaging and encrypted communication tools used to contact large numbers of people quickly; unsolicited job offers through social media messaging apps or text messages",
+    "pretext": "perpetrators pose as employers with realistic job postings, interviews, and official-looking documents; professional-looking websites or apps claiming to offer investment opportunities",
+    "payment": "victims asked to move money, accept payments in personal bank account, or use crypto; money deposited into fake investment platforms",
+    "movement": "malicious apps used to move money without the victim's knowledge; victims pressured to invest more or pay additional fees",
+    "cashout": "victims find they cannot withdraw their funds; criminals move funds quickly and anonymously through crypto investments or fraudulent payment systems"
+  },
+  "red_flags": [
+    "Unsolicited job offers through social media messaging apps or text messages",
+    "Asked to download apps or software as part of a job offer",
+    "Asked to move money, accept payments in personal bank account, or use crypto as part of job",
+    "Investment opportunities promising guaranteed or unusually high returns",
+    "Pressure to act quickly or keep the opportunity secret"
+  ],
+  "key_quote": "Once installed, they can be used to steal personal information or move money without the victim's knowledge.",
+  "id": "features-vedette-2026-03-sophistication-fraud-fraude-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/03/sophistication-fraud-fraude-eng.htm",
+  "title": "The sophistication of fraud",
+  "date": "2026-03-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

@@ -1,0 +1,57 @@
+{
+  "typologies": [
+    "investment_crypto",
+    "business_email_compromise",
+    "bank_investigator",
+    "extortion",
+    "recovery"
+  ],
+  "contact_channels": [
+    "social media",
+    "online advertisements",
+    "messaging applications",
+    "phone call",
+    "email"
+  ],
+  "pretexts": [
+    "fraudulent investment opportunities including cryptocurrency",
+    "impersonating executives, suppliers, contractors or trusted contacts",
+    "caller claims account has been compromised and victim must assist investigation",
+    "threats, impersonation and false allegations to pressure payment",
+    "impersonating law enforcement threatening arrest or deportation",
+    "promise to recover previously lost funds in exchange for fees"
+  ],
+  "payment_methods": [
+    "transfer money",
+    "wire transfer"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "businesses",
+    "fraud victims"
+  ],
+  "emerging_tactics": [
+    "spoofed communications",
+    "fake account balances showing returns to encourage deposits"
+  ],
+  "kill_chain_signals": {
+    "contact": "social media, online advertisements, messaging applications or impersonation",
+    "pretext": "impersonate financial institutions, businesses, government or law enforcement, employers, service providers, or individuals known to the victim",
+    "payment": "instructed to transfer money, provide banking information or participate in a supposed investigation",
+    "movement": "redirect payments or change banking information"
+  },
+  "red_flags": [
+    "Unexpected requests to send, transfer or withdraw money",
+    "Pressure to act immediately, secretly or outside normal procedures",
+    "Unsolicited investment opportunities promising high or guaranteed returns",
+    "Calls claiming your bank account is compromised and asking you to assist with an investigation",
+    "Requests to pay fees or taxes to recover money previously lost to fraud"
+  ],
+  "key_quote": "Fraudsters continue to use impersonation, urgency, convincing communications and established trust to obtain money or personal information.",
+  "id": "features-vedette-2026-08-fraud-trends-tendances-matiere-fraude-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/08/fraud-trends-tendances-matiere-fraude-eng.htm",
+  "title": "Fraud Trends – First 6 Months of 2026",
+  "date": "2026-08-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

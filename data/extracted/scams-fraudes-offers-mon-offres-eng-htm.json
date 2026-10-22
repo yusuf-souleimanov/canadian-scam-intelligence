@@ -1,0 +1,46 @@
+{
+  "typologies": [
+    "advance_fee"
+  ],
+  "contact_channels": [
+    "email",
+    "text message",
+    "mail",
+    "phone call",
+    "fax"
+  ],
+  "pretexts": [
+    "help transfer large sum of money from one country to another",
+    "fake inheritance letters",
+    "fake business proposals",
+    "requests for help with illegal activity such as smuggling gold out of Iraq",
+    "request appears to come from a lawyer or legal entity"
+  ],
+  "payment_methods": [
+    "fees paid before money can be released"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "individuals"
+  ],
+  "emerging_tactics": [],
+  "kill_chain_signals": {
+    "contact": "fraudster contacts you asking for help to transfer a large sum of money",
+    "pretext": "requests appear to come from a lawyer or legal entity, include fake inheritance letters, fake business proposals, or requests for help with illegal activity",
+    "payment": "you need to pay one or more fees before the money can be released"
+  },
+  "red_flags": [
+    "unsolicited contact asking for help to transfer large sum of money",
+    "request to pay fees before money can be released",
+    "request for help with illegal activity",
+    "contact appears to come from foreign lawyer or legal entity",
+    "promise of large sum of money that doesn't exist"
+  ],
+  "key_quote": "They advise you that you need to pay one or more fees before the money can be released.",
+  "id": "scams-fraudes-offers-mon-offres-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/offers-mon-offres-eng.htm",
+  "title": "Foreign money offers",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

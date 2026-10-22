@@ -1,0 +1,66 @@
+{
+  "typologies": [
+    "bank_investigator",
+    "emergency_grandparent",
+    "phishing_takeover",
+    "advance_fee",
+    "service_tech_support"
+  ],
+  "contact_channels": [
+    "phone call",
+    "email",
+    "social media",
+    "text message",
+    "mail",
+    "door-to-door / in person"
+  ],
+  "pretexts": [
+    "caller claims to be loved one",
+    "caller claims to be law enforcement",
+    "caller claims to be financial institution",
+    "caller claims to be government agency",
+    "fraudulent social media ads",
+    "compromised social media accounts",
+    "fake inheritance letter from distant relative",
+    "fraudulent prize letter claiming big prize won",
+    "contractor offering home improvement services at low price"
+  ],
+  "payment_methods": [
+    "payment for fees or insurance",
+    "deposit",
+    "prepayment"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "Canadians"
+  ],
+  "emerging_tactics": [
+    "spoofed caller ID",
+    "automated robo calls",
+    "email address spoofing",
+    "spear phishing attacks",
+    "social media bots to collect personal information",
+    "compromised social media accounts"
+  ],
+  "kill_chain_signals": {
+    "contact": "Telephone was top solicitation method in 2023; fraudsters use phone, email, social media, text message, mail, and door-to-door",
+    "pretext": "Fraudsters commonly claim to be loved ones, law enforcement, financial institutions, or government agencies; fake inheritance letters; fraudulent prize letters; contractors offering services",
+    "payment": "Fraudsters ask for payments to cover fees or insurance; request deposit or prepayment for services",
+    "movement": "Once payment, deposit, or prepayment is received, they disappear",
+    "cashout": "Not explicitly described in the text"
+  },
+  "red_flags": [
+    "Unsolicited email or text asking you to click a link or open an attachment",
+    "Suspicious or odd message from a trusted friend",
+    "High-pressure sales tactics from door-to-door sellers",
+    "Letters offering inheritance claiming to come from lawyers or accountants",
+    "Letter claiming you've won a free prize requiring up front fees"
+  ],
+  "key_quote": "Over the last 20 years, technology related to fraudulent telephone calls has evolved.",
+  "id": "features-vedette-2024-02-bulletin-2-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2024/02/bulletin-2-eng.htm",
+  "title": "Bulletin: Solicitation methods",
+  "date": "2024-02-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

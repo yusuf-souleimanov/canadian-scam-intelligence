@@ -1,0 +1,42 @@
+{
+  "typologies": [
+    "phishing_takeover",
+    "identity_fraud"
+  ],
+  "contact_channels": [
+    "search engine results",
+    "fraudulent websites"
+  ],
+  "pretexts": [
+    "fraudulent third party websites claiming to be ArriveCAN",
+    "fake sites requiring payment for free government app"
+  ],
+  "payment_methods": [
+    "credit card"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "travellers"
+  ],
+  "emerging_tactics": [
+    "search engine optimization to rank fraudulent sites at top of results"
+  ],
+  "kill_chain_signals": {
+    "contact": "Scammers are paying or using tools to have their site among the top suggestions in search engine results",
+    "pretext": "Third party websites claiming to be ArriveCAN and requiring payment for the free app",
+    "payment": "Victims provided their credit card information on fraudulent sites and were required to pay a fee"
+  },
+  "red_flags": [
+    "ArriveCAN is free and will never ask for payment or credit card information",
+    "Be cautious with search engine results as scammers manipulate rankings",
+    "Verify you are dealing with a trusted source before sharing personal information",
+    "Only use official App Store, Google Play, or government website"
+  ],
+  "key_quote": "ArriveCAN is free! It will never ask you for payment or your credit card information!",
+  "id": "features-vedette-2021-11-arrivecan-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2021/11/arrivecan-eng.htm",
+  "title": "The ArriveCan app is free – beware of fraudulent third party websites",
+  "date": "2021-11-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

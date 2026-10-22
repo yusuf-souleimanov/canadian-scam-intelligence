@@ -1,0 +1,72 @@
+{
+  "typologies": [
+    "phishing_takeover",
+    "identity_fraud",
+    "extortion"
+  ],
+  "contact_channels": [
+    "email",
+    "text message",
+    "social media message",
+    "voice message"
+  ],
+  "pretexts": [
+    "message claims to be from Canada Revenue Agency",
+    "account needs to be updated",
+    "tax refund is ready",
+    "receipt from recent purchase",
+    "delivery notification",
+    "notice to appear in court",
+    "COVID-19 test results or vaccine access",
+    "fraudulent COVID-19 benefit programs",
+    "government impersonation (CRA, RCMP, CBSA)",
+    "Ukrainian relief efforts",
+    "cryptocurrency themed lures",
+    "parking infraction must be settled",
+    "one-time payment due to inflation",
+    "e-Transfer from Government of Canada",
+    "Anti-Inflation Benefit from CRA",
+    "new mail online in CRA My Account",
+    "credit from Rogers",
+    "incentive sent to Quebec residents",
+    "licence plate sticker refund",
+    "mistake on impost - compensation owed",
+    "federal payment by e-Transfer"
+  ],
+  "payment_methods": [
+    "payment to phone number via text"
+  ],
+  "mentions_interac": true,
+  "interac_context": "Fraudulent messages claim the Government of Canada has sent money by e-Transfer and ask victims to click a link to deposit funds or provide account information for e-Transfer Autodeposit.",
+  "target_groups": [
+    "individuals"
+  ],
+  "emerging_tactics": [
+    "QR code scanning instructions",
+    "email and website name spoofing",
+    "spoofed sender addresses",
+    "malware/virus through links or attachments",
+    "use of victim's full name and SIN from prior breaches",
+    "current events themed lures (Ukrainian relief, cryptocurrency, COVID-19)"
+  ],
+  "kill_chain_signals": {
+    "contact": "Criminals send email, text, social media or voice messages appearing to be from recognizable institutions",
+    "pretext": "Message claims account needs updating, tax refund ready, delivery notification, or court notice",
+    "payment": "Text message asks that payment be sent to a phone number",
+    "movement": "Not described",
+    "cashout": "Not described"
+  },
+  "red_flags": [
+    "Unsolicited messages asking you to click on links",
+    "Messages asking you to download attachments",
+    "Spelling mistakes in messages",
+    "Messages asking for personal or financial information",
+    "Email address that looks legitimate but is spoofed"
+  ],
+  "key_quote": "Canada Revenue Agency will never ask for a payment via text message.",
+  "id": "scams-fraudes-phishing-hameconnage-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/phishing-hameconnage-eng.htm",
+  "title": "Phishing",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

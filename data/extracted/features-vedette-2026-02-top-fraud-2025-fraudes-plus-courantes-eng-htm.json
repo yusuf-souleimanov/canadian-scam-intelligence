@@ -1,0 +1,59 @@
+{
+  "typologies": [
+    "identity_fraud",
+    "investment_crypto",
+    "service_tech_support",
+    "phishing_takeover",
+    "extortion",
+    "merchandise_marketplace",
+    "bank_investigator",
+    "job_mule",
+    "romance",
+    "business_email_compromise",
+    "recovery",
+    "advance_fee"
+  ],
+  "contact_channels": [
+    "phone call",
+    "email",
+    "text message"
+  ],
+  "pretexts": [
+    "fraud investigator impersonation",
+    "investment opportunities",
+    "job offers",
+    "romantic relationship",
+    "recovery pitch for past fraud victims",
+    "prize winnings",
+    "extortion threats"
+  ],
+  "payment_methods": [],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "past fraud victims"
+  ],
+  "emerging_tactics": [
+    "spoofed caller ID",
+    "multi-factor authentication code theft"
+  ],
+  "kill_chain_signals": {
+    "contact": "unsolicited email or text message, manipulated call display",
+    "pretext": "fraud investigator, investment, job, relationship, recovery pitch, prize, extortion",
+    "payment": "accept money and send money to a third party",
+    "movement": "participating in money laundering"
+  },
+  "red_flags": [
+    "Do not trust the information on your call display because it can easily be manipulated",
+    "Never share your multi-factor authentication code with anyone",
+    "Never, under any circumstances, accept money and send money to a third party",
+    "If you've been a victim of fraud in the past, there is a very good chance you will be targeted again",
+    "Avoid reacting automatically. Take five minutes to ask additional questions and listen to your instincts"
+  ],
+  "key_quote": "Never, under any circumstances, accept money and send money to a third party.",
+  "id": "features-vedette-2026-02-top-fraud-2025-fraudes-plus-courantes-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/02/top-fraud-2025-fraudes-plus-courantes-eng.htm",
+  "title": "Top 10 frauds in 2025",
+  "date": "2026-02-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

@@ -1,0 +1,57 @@
+{
+  "typologies": [
+    "romance",
+    "emergency_grandparent",
+    "extortion",
+    "phishing_takeover",
+    "service_tech_support",
+    "business_email_compromise",
+    "charity_other"
+  ],
+  "contact_channels": [
+    "phone call",
+    "email",
+    "text message",
+    "social media message",
+    "pop-ups on computer or device"
+  ],
+  "pretexts": [
+    "caller claims to be someone you know",
+    "caller claims to be legitimate company or organization",
+    "computer infected warning",
+    "prize won notification",
+    "professes love or friendship online",
+    "sob story",
+    "threats of arrest or physical harm",
+    "threats of release of sensitive information or pictures"
+  ],
+  "payment_methods": [],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [],
+  "emerging_tactics": [
+    "spoofed caller ID",
+    "email address spoofing",
+    "search engine optimization to promote fraudulent websites",
+    "malicious pop-ups",
+    "spear phishing"
+  ],
+  "kill_chain_signals": {
+    "contact": "Fraudsters can change the caller-ID that is displayed on your phone, the sender address in an email, and often mimic legitimate websites",
+    "pretext": "Fraudster's use urgency to pressure and trick you into sending money, personal information or clicking on malicious links; Fraudster's play on your emotions to trick you into believing their story",
+    "payment": "They will do this in romance, emergency, grandparent, charity scams, etc."
+  },
+  "red_flags": [
+    "Urgency and pressure to send money or information immediately",
+    "Emotional manipulation including professing love or friendship quickly online",
+    "Threats of arrest, physical harm, financial harm, or release of sensitive information",
+    "Pop-ups claiming computer is infected with toll-free number to call",
+    "Requests for money or personal information from someone claiming to be someone you know"
+  ],
+  "key_quote": "Fraudsters can change the caller-ID that is displayed on your phone, the sender address in an email, and often mimic legitimate websites.",
+  "id": "features-vedette-2023-02-tricks-trade-ficelles-metier-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2023/02/tricks-trade-ficelles-metier-eng.htm",
+  "title": "Tricks of the trade: What's in a fraudster's toolbox? What's in yours?",
+  "date": "2023-02-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

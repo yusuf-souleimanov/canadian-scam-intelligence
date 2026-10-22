@@ -1,0 +1,49 @@
+{
+  "typologies": [
+    "business_email_compromise"
+  ],
+  "contact_channels": [
+    "email"
+  ],
+  "pretexts": [
+    "impersonating a supplier or contractor requesting urgent payment",
+    "requesting alternate bank account for invoice settlement",
+    "appearing to come from a trusted source"
+  ],
+  "payment_methods": [
+    "wire transfer"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "businesses",
+    "accounts payable employees"
+  ],
+  "emerging_tactics": [
+    "spear phishing",
+    "email account infiltration",
+    "spoofed email accounts",
+    "email forwarding rules to monitor communications",
+    "domain name registration resembling legitimate company domains"
+  ],
+  "kill_chain_signals": {
+    "contact": "perpetrators send convincing emails that appear to come from a trusted source",
+    "pretext": "impersonate a supplier or contractor and request an urgent payment to settle an invoice while providing an alternate bank account",
+    "payment": "request payment to alternate bank account; $1.7 million CAD fraudulent transfer",
+    "movement": "transfer was intercepted before the funds could be further dispersed",
+    "cashout": "funds are well positioned to be recovered and returned to the victim"
+  },
+  "red_flags": [
+    "urgent payment requests",
+    "changes to payment details or alternate bank account provided",
+    "unsolicited emails with suspicious links or attachments",
+    "unusual or unexpected payment requests",
+    "email addresses or domain names that closely resemble but don't match legitimate company domains"
+  ],
+  "key_quote": "Perpetrators of spear phishing fraud take time to collect information on their intended targets to send convincing emails that appear to come from a trusted source.",
+  "id": "news-nouvelles-2026-2026-01-29-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/news-nouvelles/2026/2026-01-29-eng.htm",
+  "title": "Canadian Anti-Fraud Centre and US Secret Service freeze $1.7M fraudulent transfer",
+  "date": "2026-01-29",
+  "source": "Canadian Anti-Fraud Centre"
+}

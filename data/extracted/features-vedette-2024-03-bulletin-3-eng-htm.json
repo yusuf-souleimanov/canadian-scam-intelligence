@@ -1,0 +1,62 @@
+{
+  "typologies": [
+    "investment_crypto",
+    "job_mule",
+    "extortion",
+    "romance",
+    "merchandise_marketplace",
+    "emergency_grandparent",
+    "advance_fee",
+    "vendor_overpayment"
+  ],
+  "contact_channels": [],
+  "pretexts": [
+    "investment fraud",
+    "job fraud",
+    "rental fraud",
+    "merchandise fraud",
+    "service fraud",
+    "romance fraud",
+    "emergency-grandparent fraud",
+    "prize fraud",
+    "fake e-transfer payment notification"
+  ],
+  "payment_methods": [
+    "bank wire transfer",
+    "cryptocurrency",
+    "e-transfer",
+    "Money Service Businesses",
+    "cash in mail",
+    "cash in person",
+    "credit card",
+    "fraudulent cheque"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "businesses"
+  ],
+  "emerging_tactics": [
+    "fake e-transfer emails",
+    "money mule recruitment via job fraud",
+    "fraudulent cheque deposit before clearing"
+  ],
+  "kill_chain_signals": {
+    "payment": "fraudsters request cryptocurrency, e-transfers, wire transfers, cash in mail, or fraudulent cheques",
+    "movement": "victims deposit e-transfers in personal accounts then transfer funds elsewhere; wire transfers to 941 accounts in 54 countries",
+    "cashout": "cryptocurrency payments difficult for law enforcement to trace"
+  },
+  "red_flags": [
+    "Receiving funds from unknown individual or company and asked to forward it elsewhere",
+    "Being asked to send cash in the mail",
+    "Urgent requests or changes in payment details",
+    "Being asked to deposit a cheque and transfer funds before it clears",
+    "Request for cryptocurrency payment"
+  ],
+  "key_quote": "Victims may be unknowingly assisting with money laundering – also referred to as being a 'money mule.'",
+  "id": "features-vedette-2024-03-bulletin-3-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2024/03/bulletin-3-eng.htm",
+  "title": "Bulletin: Payment methods",
+  "date": "2024-03-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

@@ -1,0 +1,51 @@
+{
+  "typologies": [
+    "business_email_compromise",
+    "phishing_takeover",
+    "bank_investigator"
+  ],
+  "contact_channels": [
+    "text message",
+    "AI-generated voice call",
+    "messaging app"
+  ],
+  "pretexts": [
+    "impersonation of senior government officials",
+    "impersonation of prominent public figures",
+    "urgent financial requests from high-ranking officials",
+    "claims to be someone victim trusts"
+  ],
+  "payment_methods": [],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "business executives",
+    "senior public officials"
+  ],
+  "emerging_tactics": [
+    "AI voice cloning",
+    "deepfakes",
+    "spoofed caller ID",
+    "spoofed phone numbers",
+    "forged display names in messaging apps",
+    "instruction to move to alternate communications platform"
+  ],
+  "kill_chain_signals": {
+    "contact": "threat actor is sending malicious links or urgent financial requests using messaging accounts and voice calls",
+    "pretext": "claim to be from senior government officials, using AI to mimic the officials' voices to make the calls more convincing",
+    "payment": "urgent financial requests"
+  },
+  "red_flags": [
+    "messages or calls from someone claiming to be a high-ranking government official urging immediate action",
+    "instructions to move to an alternate communications platform",
+    "messages including suspicious links or asking for personal or financial information",
+    "inconsistencies in voice, video, or message tone that seem out of character",
+    "urgent requests involving money or sensitive data"
+  ],
+  "key_quote": "A threat actor is sending malicious links or urgent financial requests using messaging accounts and voice calls that claim to be from senior government officials.",
+  "id": "news-nouvelles-2025-2025-06-23-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/news-nouvelles/2025/2025-06-23-eng.htm",
+  "title": "Joint Advisory: Cyber officials warn Canadians of malicious campaign to impersonate high-profile public figures",
+  "date": "2025-06-23",
+  "source": "Canadian Anti-Fraud Centre"
+}

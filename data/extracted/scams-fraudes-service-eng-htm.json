@@ -1,0 +1,73 @@
+{
+  "typologies": [
+    "service_tech_support",
+    "identity_fraud",
+    "phishing_takeover"
+  ],
+  "contact_channels": [
+    "social media ad",
+    "telemarketing call",
+    "door-to-door sales",
+    "phone call",
+    "text message",
+    "email",
+    "website pop-up"
+  ],
+  "pretexts": [
+    "offering home services at below market value",
+    "air duct cleaning at low rates",
+    "furnace or appliance repairs",
+    "cellphone service provider offering discount or upgraded plan",
+    "claiming to help with government documents",
+    "immigration services with guaranteed jobs",
+    "reduced interest rates on credit cards",
+    "help obtaining pardon or criminal record waiver",
+    "buyer found for item posted for sale",
+    "virus has infected your computer",
+    "computer is sending out viruses or has been hacked"
+  ],
+  "payment_methods": [
+    "fee for service",
+    "one-time fee",
+    "credit card",
+    "money transfer"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "individuals",
+    "homeowners",
+    "cellphone users",
+    "immigrants",
+    "people seeking pardons",
+    "online sellers"
+  ],
+  "emerging_tactics": [
+    "spoofed caller ID (pretending to be service provider)",
+    "real-time account access while caller stays on line",
+    "multi-factor authentication code theft",
+    "remote access to computer",
+    "fake websites mimicking official government sites",
+    "alarming website pop-ups"
+  ],
+  "kill_chain_signals": {
+    "contact": "contacted through ads on social media, telemarketing calls or through door-to-door sales persons; unexpected call, text message or email",
+    "pretext": "offer services at price below market value; claim to work for victim's current provider and offer discount, upgraded plan or new device; claim virus has infected computer",
+    "payment": "request a one-time fee for the service; ask you to pay a fee via credit card or money transfer; ask you to log into your bank account to transfer funds",
+    "movement": "instruct the victim to ship device to another address; wrong item was sent and instruct victim to ship it to another address",
+    "cashout": "device and personal information may then be used to commit fraud or identity theft"
+  },
+  "red_flags": [
+    "You receive an unexpected call, text message or email offering a discount, upgraded plan or new device",
+    "The person pressures you to act quickly or says the offer is only available for a limited time",
+    "You are asked to log in to your cellphone account while the caller stays on the line",
+    "You are asked for your account password, security code, PIN or multi-factor authentication code",
+    "The return address is different from the verified address of the service provider"
+  ],
+  "key_quote": "Be wary of ads on social media offering grants, equipment or services at a price below market value.",
+  "id": "scams-fraudes-service-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/service-eng.htm",
+  "title": "Service",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

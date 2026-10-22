@@ -1,0 +1,25 @@
+{
+  "typologies": [],
+  "contact_channels": [],
+  "pretexts": [],
+  "payment_methods": [],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "vulnerable individuals",
+    "businesses"
+  ],
+  "emerging_tactics": [],
+  "kill_chain_signals": {
+    "movement": "trace financial movement, including money mule activity and cryptocurrency pathways",
+    "contact": "identify criminal infrastructure such as fraudulent phone numbers, emails, domains, and social media ads"
+  },
+  "red_flags": [],
+  "key_quote": "Fraud networks are often sophisticated and far-reaching.",
+  "notes": "This is a Crime Stoppers Month awareness bulletin promoting anonymous tip reporting rather than describing specific scam typologies. It emphasizes the role of whistleblowing in identifying fraud infrastructure, local facilitators, and financial movement patterns.",
+  "id": "features-vedette-2026-01-say-it-here-dites-le-ici-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/01/say-it-here-dites-le-ici-eng.htm",
+  "title": "Crime Stoppers Month - Say it here",
+  "date": "2026-01-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

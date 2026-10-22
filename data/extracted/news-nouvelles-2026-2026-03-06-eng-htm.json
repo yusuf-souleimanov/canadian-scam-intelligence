@@ -1,0 +1,35 @@
+{
+  "typologies": [
+    "investment_crypto",
+    "identity_fraud",
+    "romance",
+    "service_tech_support",
+    "job_mule",
+    "extortion"
+  ],
+  "contact_channels": [],
+  "pretexts": [
+    "AI-powered impersonations",
+    "deceptive marketing schemes",
+    "government official impersonation"
+  ],
+  "payment_methods": [],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "consumers",
+    "businesses"
+  ],
+  "emerging_tactics": [
+    "AI impersonations",
+    "AI-powered deceptive marketing"
+  ],
+  "kill_chain_signals": {},
+  "red_flags": [],
+  "key_quote": "AI has armed fraudsters with powerful tools to create highly convincing impersonations and deceptive marketing schemes.",
+  "id": "news-nouvelles-2026-2026-03-06-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/news-nouvelles/2026/2026-03-06-eng.htm",
+  "title": "Fraud Prevention Month to bring hidden crime into the spotlight",
+  "date": "2026-03-06",
+  "source": "Canadian Anti-Fraud Centre"
+}

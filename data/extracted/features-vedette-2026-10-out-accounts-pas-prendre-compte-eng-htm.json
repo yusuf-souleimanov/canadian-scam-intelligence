@@ -1,0 +1,51 @@
+{
+  "typologies": [
+    "phishing_takeover"
+  ],
+  "contact_channels": [
+    "phishing messages",
+    "email",
+    "text message",
+    "phone call"
+  ],
+  "pretexts": [
+    "problem with your account",
+    "verify account information",
+    "urgent account security issue",
+    "caller claims to be the company or security representative",
+    "impersonating financial institution",
+    "impersonating government agency",
+    "impersonating delivery company"
+  ],
+  "payment_methods": [],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [],
+  "emerging_tactics": [
+    "one-time passcode theft",
+    "credential stuffing",
+    "manipulating multi-factor authentication",
+    "exploiting data breaches",
+    "manipulating account-recovery processes"
+  ],
+  "kill_chain_signals": {
+    "contact": "fraudster may contact you pretending to be the company, a security representative or even someone you know",
+    "pretext": "message may claim there is a problem with your account or ask you to verify information",
+    "payment": "",
+    "movement": "fraudster may be able to complete the login, change your password and take control of your account",
+    "cashout": "use the compromised account to access information; impersonate you or target people you know"
+  },
+  "red_flags": [
+    "you receive a one-time passcode or password-reset notification that you did not request",
+    "someone unexpectedly asks for your password, PIN, verification code or MFA code",
+    "you receive an email or text telling you there is an urgent problem with your account and directing you to a link",
+    "you are unexpectedly locked out of an account or your password no longer works",
+    "messages, posts or transactions appear on your account that you did not make"
+  ],
+  "key_quote": "The code itself is legitimate but the person asking for it is not!",
+  "id": "features-vedette-2026-10-out-accounts-pas-prendre-compte-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/10/out-accounts-pas-prendre-compte-eng.htm",
+  "title": "Keeping fraudsters out of your accounts",
+  "date": "2026-10-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

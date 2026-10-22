@@ -1,0 +1,31 @@
+{
+  "typologies": [
+    "identity_fraud",
+    "service_tech_support",
+    "investment_crypto",
+    "extortion",
+    "phishing_takeover",
+    "merchandise_marketplace",
+    "bank_investigator",
+    "job_mule",
+    "romance",
+    "recovery",
+    "vendor_overpayment",
+    "business_email_compromise"
+  ],
+  "contact_channels": [],
+  "pretexts": [],
+  "payment_methods": [],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [],
+  "emerging_tactics": [],
+  "kill_chain_signals": {},
+  "red_flags": [],
+  "key_quote": "Fraudsters steal more than money. They steal trust.",
+  "id": "features-vedette-2025-02-month-prevention-mois-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2025/02/month-prevention-mois-eng.htm",
+  "title": "Fraud Prevention Month 2025",
+  "date": "2025-02-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

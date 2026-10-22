@@ -1,0 +1,39 @@
+{
+  "typologies": [
+    "business_email_compromise"
+  ],
+  "contact_channels": [
+    "phone call",
+    "fax"
+  ],
+  "pretexts": [
+    "caller confirms business address",
+    "fraudster pretends to be usual supplier",
+    "offer supplies at discounted price"
+  ],
+  "payment_methods": [],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "businesses"
+  ],
+  "emerging_tactics": [],
+  "kill_chain_signals": {
+    "contact": "A fraudster contacts your business to confirm your address",
+    "pretext": "The fraudster may pretend to be your usual supplier or offer supplies at a discounted price",
+    "payment": "they may send unsolicited business supplies, along with an invoice"
+  },
+  "red_flags": [
+    "Misrepresentation as normal supplier",
+    "Inferior quality of delivered goods",
+    "Quality does not conform to telephone conversation",
+    "Goods were never ordered",
+    "Inflated price of merchandise"
+  ],
+  "key_quote": "Once you confirm the address, they may send unsolicited business supplies, along with an invoice.",
+  "id": "scams-fraudes-office-bureau-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/office-bureau-eng.htm",
+  "title": "Office supplies",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

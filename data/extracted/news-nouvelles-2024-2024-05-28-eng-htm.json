@@ -1,0 +1,57 @@
+{
+  "typologies": [
+    "investment_crypto",
+    "romance",
+    "recovery"
+  ],
+  "contact_channels": [
+    "dating apps",
+    "dating websites",
+    "social media",
+    "text message"
+  ],
+  "pretexts": [
+    "fraudster develops online relationship to gain trust",
+    "claims to have been successful in cryptocurrency investments",
+    "poses as legitimate investment adviser",
+    "offers to help victim get rich",
+    "mentions easy money made in crypto market based on exclusive information",
+    "claims to be professional trader",
+    "new entities offer to help recover funds for a fee"
+  ],
+  "payment_methods": [
+    "cryptocurrency",
+    "transfer funds to fake online trading platforms"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [],
+  "emerging_tactics": [
+    "pig butchering",
+    "fake online trading platforms",
+    "moving conversation to private messaging apps",
+    "provision of fake financial records showing returns",
+    "allowing small withdrawal to create false sense of legitimacy",
+    "demanding additional funds for supposed taxes and fees before disappearing"
+  ],
+  "kill_chain_signals": {
+    "contact": "Victims are contacted on dating apps/websites or social media by fraudsters; unsolicited messages from strangers on social media, dating apps/websites and text messages",
+    "pretext": "Fraudsters attempting to develop a relationship to gain trust; fraudster then claims to have been successful in cryptocurrency investments and offers to help the victim get rich",
+    "payment": "Convince victims to transfer funds or cryptocurrency into their trading account on fake online trading platforms",
+    "movement": "Victims transfer increasing amounts of money; once a substantial amount of money or crypto is sent",
+    "cashout": "Victim being unable to withdraw their funds; the scammer abruptly ceases contact; fraudster agrees to return money but demands additional funds for supposed taxes and fees before disappearing"
+  },
+  "red_flags": [
+    "Unsolicited messages from strangers on social media, dating apps/websites and text messages leading to prolonged exchanges, often moving to private messaging apps",
+    "Mention of easy money made in the crypto market, often based on exclusive information or through professional traders",
+    "Encouragement to visit crypto-related websites using terms like investment packages and guaranteed rates of return",
+    "Provision of financial records showing returns or allowing a small withdrawal to create a false sense of legitimacy",
+    "Promises of large, quick, and low-risk returns"
+  ],
+  "key_quote": "Victims are contacted on dating apps/websites or social media by fraudsters attempting to develop a relationship to gain trust.",
+  "id": "news-nouvelles-2024-2024-05-28-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/news-nouvelles/2024/2024-05-28-eng.htm",
+  "title": "Warning on crypto and romance frauds",
+  "date": "2024-05-28",
+  "source": "Canadian Anti-Fraud Centre"
+}

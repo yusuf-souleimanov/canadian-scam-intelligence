@@ -1,0 +1,44 @@
+{
+  "typologies": [
+    "business_email_compromise"
+  ],
+  "contact_channels": [
+    "phone call",
+    "email",
+    "online order"
+  ],
+  "pretexts": [
+    "fraudster places order using stolen credit card",
+    "fraudster requests urgent shipping",
+    "fraudster asks business to overcharge card and return extra funds"
+  ],
+  "payment_methods": [
+    "credit card",
+    "cash refund to fraudster"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "businesses"
+  ],
+  "emerging_tactics": [],
+  "kill_chain_signals": {
+    "contact": "business accepts orders over the phone, online or by email",
+    "pretext": "fraudsters use stolen credit cards to order products or services and ask for urgent shipping",
+    "payment": "fraudster provides a credit card and asks the business to charge extra on the card",
+    "movement": "they ask the business to return those funds (to pay for shipping of goods)",
+    "cashout": "fraudsters turn stolen credit cards into cash"
+  },
+  "red_flags": [
+    "urgent shipping request",
+    "request to overcharge credit card",
+    "request for business to return extra funds",
+    "order placed before card owner discovers the charge"
+  ],
+  "key_quote": "Fraudsters use stolen credit cards to order products or services.",
+  "id": "scams-fraudes-card-fiche-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/card-fiche-eng.htm",
+  "title": "Card-not-present",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

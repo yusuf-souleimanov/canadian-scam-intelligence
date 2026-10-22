@@ -1,0 +1,40 @@
+{
+  "typologies": [
+    "advance_fee"
+  ],
+  "contact_channels": [
+    "internet advertisement"
+  ],
+  "pretexts": [
+    "free trial of a product",
+    "free gift upon completion of a survey"
+  ],
+  "payment_methods": [
+    "credit card"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "individuals"
+  ],
+  "emerging_tactics": [],
+  "kill_chain_signals": {
+    "contact": "Fraudsters advertise a free trial of a product or a free gift upon the completion of a survey",
+    "pretext": "asked to provide a credit card number to cover shipping and handling",
+    "payment": "delivery charges can vary from $1.99 to $9.99, but the subscription fees that you unknowingly signed up for can cost hundreds to thousands of dollars monthly",
+    "movement": "The fraudsters will continue to charge you until you contact the company and cancel the services"
+  },
+  "red_flags": [
+    "free trial requires credit card for shipping and handling",
+    "small delivery charges of $1.99 to $9.99",
+    "subscription fees cost hundreds to thousands of dollars monthly",
+    "unknowingly signed up for subscription",
+    "charges continue until victim cancels"
+  ],
+  "key_quote": "The delivery charges can vary from $1.99 to $9.99, but the subscription fees that you unknowingly signed up for can cost hundreds to thousands of dollars monthly.",
+  "id": "scams-fraudes-trap-piege-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/trap-piege-eng.htm",
+  "title": "Subscription trap and continuity",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

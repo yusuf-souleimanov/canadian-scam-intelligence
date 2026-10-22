@@ -1,0 +1,53 @@
+{
+  "typologies": [
+    "romance"
+  ],
+  "contact_channels": [
+    "online relationship platform",
+    "email",
+    "text message",
+    "WhatsApp",
+    "Google Hangouts"
+  ],
+  "pretexts": [
+    "victim enters online relationship with unknown person",
+    "scammer professes love without meeting in person",
+    "person claims to live close but is working overseas",
+    "person acts distressed or angry to guilt victim into sending money"
+  ],
+  "payment_methods": [
+    "money transfer",
+    "cryptocurrency",
+    "gifts"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "Canadians looking for a relationship"
+  ],
+  "emerging_tactics": [
+    "using isolation from COVID-19 pandemic to advantage",
+    "engaging victim as money mule",
+    "sending money to victim to build further trust"
+  ],
+  "kill_chain_signals": {
+    "contact": "victim entered an online relationship with an unknown person",
+    "pretext": "individual proceeded to gain the victim's trust",
+    "payment": "scammer uses emotional leverage to request money or cryptocurrency, gifts, investments",
+    "movement": "funds are quickly moved to additional accounts",
+    "cashout": "pulled out of accounts altogether, to reduce the possibility of the banking institution freezing the illicit funds"
+  },
+  "red_flags": [
+    "someone you haven't met in person professes their love to you",
+    "person wants to quickly move to a private or different mode of communication",
+    "person always has an excuse not to meet in person",
+    "person discourages you from discussing them or their situation with your friends and family",
+    "person acts distressed or angry to guilt you into sending money"
+  ],
+  "key_quote": "In romance scams, a scammer convinces a victim to enter a virtual, online relationship.",
+  "id": "features-vedette-2022-02-romance-rencontre-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2022/02/romance-rencontre-eng.htm",
+  "title": "Canadian Anti-Fraud Centre secures $32,000 for romance scam victim",
+  "date": "2022-02-01",
+  "source": "Canadian Anti-Fraud Centre"
+}

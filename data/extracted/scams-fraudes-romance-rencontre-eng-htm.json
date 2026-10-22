@@ -1,0 +1,59 @@
+{
+  "typologies": [
+    "romance",
+    "investment_crypto",
+    "phishing_takeover"
+  ],
+  "contact_channels": [
+    "email",
+    "text message",
+    "social media",
+    "dating sites",
+    "WhatsApp",
+    "Google Hangouts"
+  ],
+  "pretexts": [
+    "fraudster develops virtual online relationship to gain trust and affection",
+    "requests money for travel, medical emergency or family assistance",
+    "claims to be successful cryptocurrency investor who can help victim get rich",
+    "offers to coach victim on crypto investing",
+    "fake approval request appearing to come from crypto service"
+  ],
+  "payment_methods": [
+    "cryptocurrency",
+    "Ethereum",
+    "Tron"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [
+    "individuals"
+  ],
+  "emerging_tactics": [
+    "pig butchering (combination of romance and investment fraud)",
+    "approval phishing (deceiving victims into granting access to cryptocurrency wallets)",
+    "coaching victims on acquiring and investing cryptocurrency",
+    "fake transfer requests with links that grant wallet access",
+    "allowing small cashouts to encourage larger investments"
+  ],
+  "kill_chain_signals": {
+    "contact": "contacted on dating apps or social media by fraudster attempting to develop relationship",
+    "pretext": "after trust is gained, fraudster claims to be successful crypto investor and offers to help victim make money",
+    "payment": "fraudster coaches victim on how to invest in fraudulent cryptocurrency platforms or sends fake approval requests to access wallet",
+    "movement": "fraudster directs victim to open and fund new crypto accounts and send to wallets they control",
+    "cashout": "fraudster may let victim cash out some investment returns only to get them to invest larger amount, but victim cannot withdraw when they request"
+  },
+  "red_flags": [
+    "someone you haven't met in person professes their love to you",
+    "person wants to quickly move to private or different mode of communication",
+    "they always have an excuse not to meet in person",
+    "individual discourages you from discussing them or their situation with friends and family",
+    "someone offering to coach you on crypto investing"
+  ],
+  "key_quote": "A fraudster convinces you to enter a virtual, online relationship so the fraudster can gain your trust and affection.",
+  "id": "scams-fraudes-romance-rencontre-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/romance-rencontre-eng.htm",
+  "title": "Relationship and romance",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

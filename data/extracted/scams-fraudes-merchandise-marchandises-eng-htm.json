@@ -1,0 +1,71 @@
+{
+  "typologies": [
+    "merchandise_marketplace",
+    "vendor_overpayment",
+    "phishing_takeover"
+  ],
+  "contact_channels": [
+    "classified ads sites",
+    "resale sites",
+    "website pop-ups",
+    "fake company websites",
+    "email",
+    "text message",
+    "social media"
+  ],
+  "pretexts": [
+    "buyer claims to be located out of town and offers to buy item unseen",
+    "payment is pending but requires tracking number to release funds",
+    "buyer cannot send payment due to problem with seller's PayPal or bank account",
+    "buyer sends overpayment and asks seller to wire excess funds back",
+    "fake etransfer notification asking seller to accept transfer as payment",
+    "QR code sent claiming seller must scan to receive payment",
+    "QR code sent claiming to be payment but is actually a payment request",
+    "classified ads for lower priced or free animals",
+    "rental property available in ideal locations at below average prices",
+    "counterfeit merchandise sold at big discounts on fake manufacturer websites"
+  ],
+  "payment_methods": [
+    "Interac e-Transfer",
+    "wire transfer",
+    "MoneyGram",
+    "Western Union",
+    "compromised bank accounts",
+    "fraudulent cheques",
+    "stolen credit cards",
+    "QR codes"
+  ],
+  "mentions_interac": true,
+  "interac_context": "Fraudsters send fake etransfer email or text messages asking sellers to accept a transfer as payment to steal banking credentials and access bank accounts.",
+  "target_groups": [
+    "individuals",
+    "businesses",
+    "anyone selling goods online"
+  ],
+  "emerging_tactics": [
+    "QR codes",
+    "spoofed email addresses and text message numbers",
+    "fake etransfer notifications",
+    "spoofed payment notifications"
+  ],
+  "kill_chain_signals": {
+    "contact": "Fraudsters contact sellers who posted online ads on social media or classified sites",
+    "pretext": "Buyer claims to be out of town, offers to buy unseen, or sends fake payment notification requiring action",
+    "payment": "Victim instructed to send reimbursement via money service business, wire excess funds, or provide banking credentials via QR code or fake etransfer link",
+    "movement": "Victim ships item and provides tracking number, or sends reimbursement through Western Union or MoneyGram",
+    "cashout": "Fraudsters gain access to victim's bank account to steal money, or receive wire transfer of excess funds"
+  },
+  "red_flags": [
+    "if the asking price of a product is too good to be true, it is",
+    "no customer phone number or email listed on the website",
+    "the price is hugely discounted",
+    "payment notification requires action like providing tracking number to release funds",
+    "buyer asks you to reimburse them for fees using money service business"
+  ],
+  "key_quote": "The email looks official, but the fraudsters want to steal your banking credentials to access your bank accounts and steal your money!",
+  "id": "scams-fraudes-merchandise-marchandises-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/merchandise-marchandises-eng.htm",
+  "title": "Merchandise",
+  "date": null,
+  "source": "Canadian Anti-Fraud Centre"
+}

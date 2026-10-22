@@ -1,0 +1,53 @@
+{
+  "typologies": [
+    "investment_crypto",
+    "romance",
+    "phishing_takeover"
+  ],
+  "contact_channels": [
+    "dating app",
+    "social media platform",
+    "phone call",
+    "email",
+    "social media ad"
+  ],
+  "pretexts": [
+    "romance scam turning into investment fraud",
+    "friend impersonation via compromised social media account",
+    "business opportunity with fake potential growth",
+    "crypto investment advertisement",
+    "unsolicited investment offer"
+  ],
+  "payment_methods": [
+    "cryptocurrency transfer",
+    "crypto account funding"
+  ],
+  "mentions_interac": false,
+  "interac_context": "",
+  "target_groups": [],
+  "emerging_tactics": [
+    "compromised social media accounts for friend impersonation",
+    "fraudulent crypto investment websites",
+    "phishing ads on social media"
+  ],
+  "kill_chain_signals": {
+    "contact": "fraudster approaches on dating app or social media platform; fraudster calls; phishing ads on social media",
+    "pretext": "romance scam turning into investment fraud; friend impersonation; fake potential growth on fraudulent website; too good to be true returns",
+    "payment": "convince you to invest; transfer legit crypto investment to alternate crypto address; open and fund new crypto accounts",
+    "movement": "direct you to wallets controlled by criminals; alternate crypto address under control of criminals",
+    "cashout": "money cannot be withdrawn after a long period of investment time"
+  },
+  "red_flags": [
+    "Investment opportunities with too good to be true returns",
+    "Displays of urgency making you think this is a deal you don't want to miss",
+    "Fraudulent ads posted on the internet or social media",
+    "Unsolicited investment offers received by telephone, email or social media",
+    "Requests to transfer your legit crypto investment to an alternate crypto address"
+  ],
+  "key_quote": "It can start as a romance scam, quickly turning into an investment fraud with potentially serious financial losses for you",
+  "id": "features-vedette-2022-06-crypto-cryptomonnaies-eng-htm",
+  "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2022/06/crypto-cryptomonnaies-eng.htm",
+  "title": "Crypto investment scams – how do they work",
+  "date": "2022-06-01",
+  "source": "Canadian Anti-Fraud Centre"
+}
