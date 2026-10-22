@@ -3,10 +3,11 @@
 The CAFC dataset says *how much* of each scam is reported, but not how the
 money moved. The bulletins say *how* scams work. Extraction gives us, per
 document: which typologies it describes, the payment methods victims were
-told to use, whether Interac e-Transfer is named, and any newer tactics
+told to use, whether e-Transfer is named, and any newer tactics
 (deepfakes, OTP theft, etc.). Results are cached in data/extracted/.
 """
 import json
+from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
@@ -35,9 +36,9 @@ Return JSON with exactly these keys:
   "typologies": [ids from the list above that the page actually describes],
   "contact_channels": [how scammers reach victims, e.g. "phone call", "text message", "social media ad"],
   "pretexts": [short phrases for the story used, e.g. "caller claims to be bank fraud department"],
-  "payment_methods": [how victims are told to pay, e.g. "Interac e-Transfer", "crypto ATM", "gift cards", "cash courier", "wire transfer"],
-  "mentions_interac": true/false (the page explicitly names Interac or e-Transfer),
-  "interac_context": "one sentence on how e-Transfer/Interac is involved, or empty string",
+  "payment_methods": [how victims are told to pay, e.g. "e-Transfer", "crypto ATM", "gift cards", "cash courier", "wire transfer"],
+  "mentions_etransfer": true/false (the page explicitly names e-Transfer),
+  "etransfer_context": "one sentence on how e-Transfer is involved, or empty string",
   "target_groups": [e.g. "seniors", "newcomers", "students", "businesses"],
   "emerging_tactics": [newer techniques if described: deepfakes, AI voice cloning, one-time passcode theft, spoofed caller ID, remote access apps, QR codes, etc.],
   "kill_chain_signals": {{stage: "what in the text describes this stage"}} for stages among: {stages},
@@ -89,7 +90,7 @@ def summarize(records: list[dict]) -> dict:
     from collections import Counter
 
     synonyms = {"bitcoin": "cryptocurrency", "crypto": "cryptocurrency", "crypto atm": "cryptocurrency",
-                "e-transfer": "interac e-transfer", "email money transfer": "interac e-transfer",
+                "interac e-transfer": "e-transfer", "email money transfer": "e-transfer",
                 "multi-factor authentication code theft": "one-time passcode theft",
                 "deepfake": "deepfakes", "ai voice cloning": "deepfakes / ai voice cloning",
                 "deepfakes": "deepfakes / ai voice cloning", "caller id spoofing": "spoofed caller id"}
@@ -102,16 +103,44 @@ def summarize(records: list[dict]) -> dict:
     tactics = Counter(norm(t) for r in records for t in r.get("emerging_tactics", []))
     recent = [r for r in records if (r.get("date") or "") >= "2025-01-01"]
     recent_tactics = Counter(norm(t) for r in recent for t in r.get("emerging_tactics", []))
-    interac_docs = [r for r in records if r.get("mentions_interac")]
+    # older cached records used the key "mentions_interac"
+    etransfer_docs = [r for r in records if r.get("mentions_etransfer", r.get("mentions_interac"))]
     by_typology = Counter(t for r in records for t in r.get("typologies", []))
-    interac_by_typology = Counter(t for r in interac_docs for t in r.get("typologies", []))
+    # sorted so ties come out in the same order every run
+    methods_by_doc = [sorted({payment_bucket(p) for p in r.get("payment_methods", [])} - {None}) for r in records]
+    method_share = Counter(b for buckets in methods_by_doc for b in buckets)
+    methods_by_typology = defaultdict(Counter)
+    for r, buckets in zip(records, methods_by_doc):
+        for t in r.get("typologies", []):
+            methods_by_typology[t].update(buckets)
     return {
         "n_docs": len(records),
         "n_recent": len(recent),
         "payment_methods": payment.most_common(15),
         "emerging_tactics": tactics.most_common(15),
         "recent_tactics": recent_tactics.most_common(10),
-        "interac_docs": interac_docs,
+        "etransfer_docs": etransfer_docs,
         "by_typology": by_typology,
-        "interac_by_typology": interac_by_typology,
+        # share of bulletins that name each payment method, overall and per typology
+        "method_share": [(m, round(n / len(records), 3)) for m, n in method_share.most_common()],
+        "methods_by_typology": {t: c.most_common() for t, c in methods_by_typology.items()},
     }
+
+
+PAYMENT_BUCKETS = [  # first match wins
+    ("Cryptocurrency", ("crypto", "bitcoin", "btm", "virtual currenc", "ethereum", "monero", "litecoin", "tether", "ripple")),
+    ("Gift cards", ("gift card", "prepaid card", "voucher")),
+    ("Bank transfer", ("e-transfer", "etransfer", "interac", "bank transfer", "eft", "debit", "online banking",
+                       "transfer to", "direct deposit", "line of credit", "account transfer")),
+    ("Wire / money service", ("wire", "money service", "money transfer", "western union", "moneygram", "money gram", "money order")),
+    ("Cash", ("cash", "courier")),
+    ("Card", ("credit card", "card payment", "card details", "card information")),
+]
+
+
+def payment_bucket(method: str) -> str | None:
+    m = method.lower()
+    for bucket, keys in PAYMENT_BUCKETS:
+        if any(k in m for k in keys):
+            return bucket
+    return None

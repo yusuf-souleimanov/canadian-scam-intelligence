@@ -3,7 +3,7 @@
 Numbers come from trends.py (CAFC data) and extract.py (bulletins).
 Recommendations are ranked by a transparent formula, not by the LLM:
 
-    priority = control value  x  Interac exposure  x  size of losses  x  growth
+    priority = control value  x  bank-transfer exposure  x  size of losses  x  growth
 
 Claude only writes the prose (key judgements and the "why" for each
 recommendation), and is told to use only the numbers it is given.
@@ -50,10 +50,10 @@ def rank_controls(tr) -> list[dict]:
         # outlier-resistant growth: losses excluding each period's 3 largest reports
         growth = row["loss_ex_top3_yoy"] if not math.isnan(row["loss_ex_top3_yoy"]) else 0
         for c in t["controls"]:
-            priority = (control_score(c) * EXPOSURE_WEIGHT[t["interac_exposure"]]
+            priority = (control_score(c) * EXPOSURE_WEIGHT[t["bank_transfer_exposure"]]
                         * math.sqrt(share) * (1 + max(-0.5, min(growth, 1.0))))
             ranked.append({**c, "typology": tid, "typology_name": t["name"],
-                           "interac_exposure": t["interac_exposure"], "loss_share": share,
+                           "bank_transfer_exposure": t["bank_transfer_exposure"], "loss_share": share,
                            "loss_yoy": growth, "priority": priority})
     return sorted(ranked, key=lambda r: r["priority"], reverse=True)
 
@@ -62,7 +62,7 @@ def build_facts(df, tr, channels, intel) -> dict:
     head = trends.headline_numbers(df)
 
     def pct(x):
-        return None if x is None or (isinstance(x, float) and math.isnan(x)) else round(x * 100, 1)
+        return None if x is None or (isinstance(x, float) and math.isnan(x)) else round(x * 100)  # whole numbers, matching the tables
 
     return {
         "headline_12m": {**head, "loss_millions": round(head["loss"] / 1e6, 1),
@@ -74,7 +74,8 @@ def build_facts(df, tr, channels, intel) -> dict:
                           "do not necessarily mean less fraud; loss mix and median loss per victim are more reliable. "
                           "Only call growth real when growth_is_robust is true.",
         "typologies": [
-            {"name": r["name"], "interac_exposure": r["interac_exposure"],
+            {"name": r["name"], "bank_transfer_exposure": r["bank_transfer_exposure"],
+             "payment_methods_in_bulletins": intel["methods_by_typology"].get(tid, [])[:3],
              "reports": int(r["reports"]), "reports_yoy_pct": pct(r["reports_yoy"]),
              "loss_millions": round(r["loss"] / 1e6, 2), "loss_yoy_pct": pct(r["loss_yoy"]),
              "share_of_window_losses_pct": pct(r["loss"] / tr["loss"].sum()),
@@ -82,12 +83,13 @@ def build_facts(df, tr, channels, intel) -> dict:
              "growth_is_robust": bool(r["robust_growth"]),
              "median_loss_per_victim": round(r["median_loss"]), "median_loss_prev": round(r["median_loss_prev"]),
              "senior_loss_share_pct": pct(r["senior_loss_share"])}
-            for _, r in tr.iterrows()
+            for tid, r in tr.iterrows()
         ],
         "channel_shift_pts": {k: round(v, 1) for k, v in channels["change_pts"].items()},
         "bulletins": {
             "documents_analysed": intel["n_docs"],
-            "documents_naming_interac": len(intel["interac_docs"]),
+            "documents_naming_etransfer": len(intel["etransfer_docs"]),
+            "payment_methods_share_of_bulletins": intel["method_share"],
             "top_payment_methods": intel["payment_methods"][:8],
             "recent_tactics_2025_on": intel["recent_tactics"][:8],
         },
@@ -95,7 +97,7 @@ def build_facts(df, tr, channels, intel) -> dict:
 
 
 WRITER_SYSTEM = (
-    "You write concise fraud intelligence for a Canadian payments network's Fraud Strategy leadership. "
+    "You write concise fraud intelligence for fraud strategy leaders at Canadian banks and payment networks. "
     "Plain, confident, specific: short sentences an executive can read in 10 seconds. "
     "Use ONLY numbers present in the facts JSON; never add, divide or otherwise compute new figures, "
     "and never mix the 12-month headline with the 6-month typology figures. If a number isn't in the facts, leave it out. "
@@ -111,11 +113,11 @@ def write_prose(facts: dict, recs: list[dict]) -> dict:
 {json.dumps(facts, indent=1, default=str)}
 
 Top-ranked candidate controls (already chosen by a scoring model; do not reorder):
-{json.dumps([{k: r[k] for k in ('typology_name', 'stage', 'control', 'owner', 'effort', 'cost', 'impact', 'interac_exposure')} for r in recs], indent=1)}
+{json.dumps([{k: r[k] for k in ('typology_name', 'stage', 'control', 'owner', 'effort', 'cost', 'impact', 'bank_transfer_exposure')} for r in recs], indent=1)}
 
 Write JSON:
 {{
-  "bottom_line": "2 short sentences (max 45 words total): the single most important takeaway for an Interac fraud strategy leader",
+  "bottom_line": "2 short sentences (max 45 words total): the single most important takeaway for a fraud strategy leader at a Canadian bank or payment network",
   "key_judgements": ["4 bullets, each one sentence with a specific number from the facts"],
   "watch_list": ["2-3 bullets on emerging tactics from the bulletins worth monitoring, one sentence each: what the tactic is and which typologies it could affect; no claims about demographics or causes"],
   "recommendation_rationales": ["one 1-2 sentence 'why this, why now' per control above, in the same order, citing the numbers"]
@@ -142,7 +144,7 @@ def loss_bar_chart(tr, width=6.8 * inch, height=3.0 * inch) -> Drawing:
     ch.valueAxis.labelTextFormat = "$%dM"
     ch.bars.strokeColor = None
     ch.barWidth = 9
-    for i, exp in enumerate(data["interac_exposure"]):
+    for i, exp in enumerate(data["bank_transfer_exposure"]):
         ch.bars[(0, i)].fillColor = EXPOSURE_COLOR[exp]
     d.add(ch)
     return d
@@ -221,7 +223,7 @@ def build_pdf(path, df, tr, channels, intel, prose, recs, series, facts):
 
     # Page 1: bottom line + key judgements + where the money goes
     story += [
-        Paragraph("Canadian Payment Scam Intelligence Brief", s["title"]),
+        Paragraph("Canadian Scam Intelligence Brief", s["title"]),
         Paragraph(f"Data through {head['data_through']} · CAFC Fraud Reporting System + {intel['n_docs']} CAFC bulletins · "
                   f"Prepared {date.today():%B %d, %Y} · Independent analysis of public data", s["sub"]),
         Paragraph(prose["bottom_line"], s["bl"]),
@@ -239,22 +241,35 @@ def build_pdf(path, df, tr, channels, intel, prose, recs, series, facts):
     story += [
         Paragraph("Where reported losses concentrate (last 12 months)", s["h"]),
         loss_bar_chart(trends.typology_trends(df, months=12)),
-        Paragraph('Bar colour = likely Interac exposure: <font color="#b4441f">■ High</font>  '
+        Paragraph('Bar colour = bank-transfer exposure: <font color="#b4441f">■ High</font>  '
                   '<font color="#d4a017">■ Medium</font>  <font color="#9aa3ad">■ Low</font>. '
-                  "Exposure is an analyst judgement of how often the scam's money moves over e-Transfer/debit rather than crypto, cards or gift cards.", s["small"]),
-        PageBreak(),
+                  "An analyst judgement of how often the scam's money moves by bank transfer (e-Transfer, debit, EFT), "
+                  "where banks and payment networks can intervene, rather than by crypto, gift cards or cash.", s["small"]),
+        Paragraph(f"How victims are told to pay (share of {intel['n_docs']} bulletins naming each method)", s["h"]),
     ]
+    methods = intel["method_share"][:6]
+    pay = Table([[m for m, _ in methods], [f"{share * 100:.0f}%" for _, share in methods]],
+                colWidths=[6.95 * inch / len(methods)] * len(methods))
+    pay.setStyle(TableStyle([
+        ("FONTNAME", (0, 0), (-1, 0), "Helvetica"), ("FONTSIZE", (0, 0), (-1, 0), 7.5), ("TEXTCOLOR", (0, 0), (-1, 0), MUTED),
+        ("FONTNAME", (0, 1), (-1, 1), "Helvetica-Bold"), ("FONTSIZE", (0, 1), (-1, 1), 13), ("TEXTCOLOR", (0, 1), (-1, 1), INK),
+        ("LINEABOVE", (0, 0), (-1, 0), 1, RULE), ("TOPPADDING", (0, 0), (-1, -1), 3), ("BOTTOMPADDING", (0, 1), (-1, 1), 5),
+    ]))
+    story += [pay, Paragraph("A bulletin can name several methods. Bulletins describe how scams work, not how often each method is used.", s["small"]),
+              PageBreak()]
 
     # Page 2: what's growing
     story.append(Paragraph(f"What's growing: {facts['comparison']} (same months a year earlier)", s["h"]))
-    rows = [["Typology", "Interac exp.", "Reports", "Rpts YoY", "Losses", "Losses YoY", "Median loss", "60+ share"]]
-    for _, r in tr.iterrows():
+    short = {"Cryptocurrency": "Crypto", "Wire / money service": "Wire", "Bank transfer": "Bank transfer"}
+    rows = [["Typology", "Usually paid via", "Reports", "Rpts YoY", "Losses", "Losses YoY", "Median loss", "60+ share"]]
+    for tid, r in tr.iterrows():
+        paid_via = ", ".join(short.get(m, m) for m, _ in intel["methods_by_typology"].get(tid, [])[:2]) or "n/a"
         loss_yoy = _fmt_pct(r["loss_yoy"]) + ("" if r["robust_growth"] or not (r["loss_yoy"] >= 0.2) else "*")
         median = "n/a" if not r["median_loss"] else f"${r['median_loss'] / 1e3:,.1f}K"
-        rows.append([Paragraph(r["name"], s["cell"]), r["interac_exposure"], f"{int(r['reports']):,}",
+        rows.append([Paragraph(r["name"], s["cell"]), Paragraph(paid_via, s["cell"]), f"{int(r['reports']):,}",
                      _fmt_pct(r["reports_yoy"]), f"${r['loss'] / 1e6:,.1f}M", loss_yoy, median,
                      "n/a" if math.isnan(r["senior_loss_share"]) else f"{r['senior_loss_share'] * 100:.0f}%"])
-    t = _table(rows, [2.2 * inch, 0.7 * inch, 0.6 * inch, 0.65 * inch, 0.65 * inch, 0.7 * inch, 0.75 * inch, 0.65 * inch])
+    t = _table(rows, [1.95 * inch, 0.95 * inch, 0.6 * inch, 0.65 * inch, 0.65 * inch, 0.7 * inch, 0.75 * inch, 0.65 * inch])
     for i, (_, r) in enumerate(tr.iterrows(), start=1):
         if r["robust_growth"]:
             t.setStyle(TableStyle([("TEXTCOLOR", (5, i), (5, i), EXPOSURE_COLOR["High"]), ("FONTNAME", (5, i), (5, i), "Helvetica-Bold"),
@@ -264,8 +279,8 @@ def build_pdf(path, df, tr, channels, intel, prose, recs, series, facts):
                            "almost all categories as overall CAFC volumes decline, so median loss and mix are the better signals.",
                            s["small"]), Spacer(1, 6)]
     names = {tid: TYPOLOGY_BY_ID[tid]["name"] for tid in series.columns}
-    story += [Paragraph("Monthly reported losses, largest High-exposure typologies", s["h"]),
-              monthly_line_chart(series, names, height=1.9 * inch)]
+    story += [Paragraph("Monthly reported losses: largest scams with high bank-transfer exposure", s["h"]),
+              monthly_line_chart(series, names, height=1.55 * inch)]
 
     ch_rows = [["How scammers make contact", "Share now", "vs year ago"]]
     for name, r in channels.head(6).iterrows():
@@ -306,7 +321,7 @@ def build_pdf(path, df, tr, channels, intel, prose, recs, series, facts):
         Spacer(1, 8),
         Paragraph("<b>Method and caveats.</b> Trends use the CAFC Fraud Reporting System open dataset (Canada only); the CAFC "
                   "estimates only a small fraction of fraud is reported, so figures show direction and mix, not totals. Recent "
-                  "months may rise as late reports arrive. Typology mapping, Interac exposure and effort/cost/impact scores are "
+                  "months may rise as late reports arrive. Typology mapping, bank-transfer exposure and effort/cost/impact scores are "
                   "analyst judgements, documented in the project's taxonomy file. Recommendations are ranked by "
                   "(impact ÷ effort+cost) × exposure × √loss share × growth. Bulletin facts were extracted with Claude and "
                   "link back to source pages. Control ideas are candidates for discussion, not claims about current practice.",
@@ -314,7 +329,7 @@ def build_pdf(path, df, tr, channels, intel, prose, recs, series, facts):
     ]
 
     doc = SimpleDocTemplate(str(path), pagesize=letter, leftMargin=0.75 * inch, rightMargin=0.75 * inch,
-                            topMargin=0.6 * inch, bottomMargin=0.6 * inch, title="Canadian Payment Scam Intelligence Brief")
+                            topMargin=0.6 * inch, bottomMargin=0.6 * inch, title="Canadian Scam Intelligence Brief")
     doc.build(story, onFirstPage=on_page, onLaterPages=on_page)
 
 
@@ -344,7 +359,7 @@ def generate(n_recs: int = 3) -> Path:
             seen.add(r["typology"])
         if len(recs) == n_recs:
             break
-    top_high = [t for t in tr.index if TYPOLOGY_BY_ID[t]["interac_exposure"] == "High"][:4]
+    top_high = [t for t in tr.index if TYPOLOGY_BY_ID[t]["bank_transfer_exposure"] == "High"][:4]
     series = trends.monthly_series(df, top_high)
     facts = build_facts(df, tr, channels, intel)
     prose = write_prose(facts, recs)

@@ -20,7 +20,7 @@ INDEX_PAGES = [
     "news-nouvelles/index-eng.htm",
 ]
 SKIP = re.compile(r"index-eng|terms-avis|report-signalez|protect-protegez|about-ausujet|directory-annuaire|victim-victime")
-HEADERS = {"User-Agent": "interac-scam-intel/0.1 (student research project)"}
+HEADERS = {"User-Agent": "canadian-scam-intelligence/0.1 (student research project)"}
 
 DOCS_DIR = Path(__file__).resolve().parent.parent / "data" / "docs"
 

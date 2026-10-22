@@ -85,7 +85,7 @@ def typology_trends(df: pd.DataFrame, months: int = 6) -> pd.DataFrame:
     out["loss_per_victim"] = out["loss"] / out["victims"].where(out["victims"] > 0)
     out = out.drop(index="unmapped", errors="ignore")
     out["name"] = [TYPOLOGY_BY_ID[i]["name"] for i in out.index]
-    out["interac_exposure"] = [TYPOLOGY_BY_ID[i]["interac_exposure"] for i in out.index]
+    out["bank_transfer_exposure"] = [TYPOLOGY_BY_ID[i]["bank_transfer_exposure"] for i in out.index]
     out.attrs["window"] = f"{end - (months - 1)} to {end}"
     out.attrs["prev_window"] = f"{end - 12 - (months - 1)} to {end - 12}"
     return out.sort_values("loss", ascending=False)
